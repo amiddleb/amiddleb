@@ -1,0 +1,16 @@
+body {
+  background-color: navajowhite;
+  color: brown;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 100px;
+}
+p {
+  color: teal;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+li {
+  color: teal;
+  letter-spacing: 2px;
+}
