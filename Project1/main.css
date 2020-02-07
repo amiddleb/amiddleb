@@ -1,0 +1,21 @@
+body {
+  background-color: navajowhite;
+  color: lightblue;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 100px;
+  text-align:center;
+}
+p {
+  color: darkblue;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-align:center;
+}
+a:hover {
+  color:pink;
+}
+a{
+  color:teal;
+  text-decoration:none;
+}
