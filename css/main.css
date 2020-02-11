@@ -1,12 +1,12 @@
 body {
-  background-color: navajowhite;
-  color: tomato;
+  background-color: antiquewhite;
+  color: lightseagreen;
   font-family: sans-serif;
   font-size: 20px;
   margin: 100px;
 }
 a{
-  color: teal;
+  color: salmon;
   text-decoration: none;
   text-transform: lowercase;
   letter-spacing: 2px;
