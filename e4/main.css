@@ -1,16 +1,16 @@
 body {
-  background-color: navajowhite;
-  color: brown;
+  background-color: antiquewhite;
+  color: lightseagreen;
   font-family: sans-serif;
   font-size: 20px;
   margin: 100px;
 }
 p {
-  color: teal;
+  color: salmon;
   text-decoration: none;
   letter-spacing: 2px;
 }
 li {
-  color: teal;
+  color: salmon;
   letter-spacing: 2px;
 }
