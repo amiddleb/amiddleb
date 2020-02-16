@@ -7,18 +7,21 @@ body {
   margin: -50px -10%;
 }
 .block-1, .block-2, .block-3, .block-4 {
-  width: 100px;
-  height: 100px;
   float: left;
-  opacity: .7;
-  border: 10px solid crimson;
+  opacity: 1;
   border-radius: 40%
 }
 .block-1 {
+  width: 45px;
+  height: 37px;
+  border: 5px solid teal;
   margin: -45px;
   background-color: lightsalmon;
 }
 .block-2 {
+  width: 32px;
+  height: 29px;
+  border: 5px solid orange;
   margin: -25px;
   background-color: darkred;
 }
