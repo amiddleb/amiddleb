@@ -13,27 +13,27 @@ body {
 .block-1 {
   width: 45px;
   height: 37px;
-  border: 5px solid teal;
-  margin: -45px;
+  border: 4px solid teal;
+  margin: -45px 10px;
   opacity: .5;
   background-color: lightsalmon;
 }
 .block-2 {
   width: 32px;
   height: 29px;
-  border: 5px solid orange;
+  border: 9px solid orange;
   margin: -25px;
   background-color: darkred;
 }
 .block-3 {
   width: 30px;
   height: 20px;
-  margin: -5px;
+  margin: 5px;
   background-color: papayawhip;
 }
 .block-4 {
-  width: 14px;
-  height:29px;
-  margin: -3px;
-  background-color: mediumaquamarine;
+  width: 90px;
+  height: 50px;
+  margin: 3px;
+  background-color: paleturquoise;
 }
