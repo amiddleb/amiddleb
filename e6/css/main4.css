@@ -5,3 +5,33 @@ body {
 .container {
   width: 110vw;
   margin: -50px -10%;
+}
+.block-1, .block-2, .block-3 {
+    float: left;
+}
+.block-1 {
+    width: 50px;
+    height: 0px;
+    border-bottom: 100px solid #F6CECE;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    margin-top: 30px;
+}
+.block-2 {
+    width: 0px;
+    height: 0px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid orange;
+    opacity: .6;
+    margin-top: 50px;
+}
+.block-3 {
+    width: 25px;
+    height: 7px;
+    border: 2px solid #0B3B39;
+    margin-top: 10px;
+    opacity: .5;
+    background-color: palegreen;
+    border-radius: -10%
+}
