@@ -1,21 +1,21 @@
 body {
   background-color: navajowhite;
-  color: lightblue;
+  color: #A4A4A4;
   font-family: baskerville;
   font-size: 22px;
   margin: 100px;
   text-align:center;
 }
 p {
-  color: darkblue;
+  color: #A4A4A4;
   text-decoration: none;
   letter-spacing: 2px;
   text-align:center;
 }
 a:hover {
-  color:pink;
+  color:#FACC2E;
 }
 a{
-  color:teal;
+  color: #B18904;
   text-decoration:none;
 }
