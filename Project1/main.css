@@ -1,7 +1,7 @@
 body {
-  background-color: navajowhite;
+  background-color: #FBF2EF;
   color: #A4A4A4;
-  font-family: baskerville;
+  font-family: 'Cormorant Garamond', sans-serif;
   font-size: 22px;
   margin: 100px;
   text-align:center;
@@ -13,9 +13,10 @@ p {
   text-align:center;
 }
 a:hover {
-  color:#FACC2E;
+  color:#F5BCA9;
 }
 a{
   color: #B18904;
   text-decoration:none;
+  transition: color 1s ease;
 }
