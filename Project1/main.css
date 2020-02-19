@@ -21,8 +21,8 @@ a{
   transition: color 1s ease;
 }
 .container {
-  background-color: #EFF8FB;
+  background-color: #E0E6F8;
   margin: 100px auto;
   width: 75%;
-  padding: 30px;
+  padding: -10px 0px 40px 0px;
 }
