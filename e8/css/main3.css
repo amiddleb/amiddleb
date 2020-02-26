@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background-color: #FCF4D0;
+}
+.container {
+  width: 900px;
+  margin: 100px auto;
+}
+.header, .pic, .caption, .text {
+  float: left;
+}
+.header {
+  width: 900px;
+  height: 100px;
+  background-color: #25DEB1;
+}
+.pic {
+  width: 800px;
+  height: 200px;
+  margin: 75px 15px 15px 0px;
+  background-color: #25DEB1;
+}
+.caption {
+  width: 800px;
+  height: 35px;
+  background-color: #25DEB1;
+}
+.text {
+  width: 85px;
+  height: 100px;
+  background-color: #25DEB1;
+}
