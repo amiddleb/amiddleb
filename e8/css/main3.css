@@ -16,7 +16,7 @@ body {
 }
 .pic {
   width: 800px;
-  height: 200px;
+  height: 300px;
   margin: 75px 15px 15px 0px;
   background-color: #25DEB1;
 }
@@ -27,6 +27,7 @@ body {
 }
 .text {
   width: 85px;
-  height: 100px;
+  height: 150px;
+  margin-top: 75px;
   background-color: #25DEB1;
 }
