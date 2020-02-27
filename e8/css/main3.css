@@ -18,12 +18,14 @@ body {
 .pic {
   width: 800px;
   height: 300px;
-  margin: 0px 15px 15px 0px;
+  margin-right: 15px;
   background-color: #25DEB1;
 }
 .caption {
   width: 800px;
   height: 35px;
+  margin-top: 15px;
+  margin-bottom: 75px;
   background-color: #25DEB1;
 }
 .text {
