@@ -6,7 +6,7 @@ body {
   width: 900px;
   margin: 100px auto;
 }
-.header, .pic, .caption, .text, .text2 {
+.header, .pic, .caption, .text {
   float: left;
 }
 .header {
@@ -29,11 +29,6 @@ body {
   background-color: #25DEB1;
 }
 .text {
-  width: 85px;
-  height: 150px;
-  background-color: #25DEB1;
-}
-.text2 {
   width: 85px;
   height: 150px;
   background-color: #25DEB1;
