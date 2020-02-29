@@ -2,18 +2,27 @@ body {
   margin: 0;
   background-color: #FCF4D0;
 }
-.board {
-  width: 800px;
+.container {
+  width: 980px;
   margin: 100px auto;
 }
-.red, .white {
-  float: left;
-  width: 100px;
-  height: 100px;
+.container3 {
+  width: 300px;
 }
-.red {
+.short, .thin, .medium, .tall {
+  float: left;
+}
+.short {
+  width: 33.125px;
+  height: 60px;
   background-color: #25DEB1;
 }
-.white {
-  background-color: #A6F3E1;
+.thin {
+  background-color: #25DEB1;
+}
+.medium {
+  background-color: #25DEB1;
+}
+.tall {
+  background-color: #25DEB1;
 }
