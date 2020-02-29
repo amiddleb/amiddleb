@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: #FCF4D0;
+}
+.container {
+  width: 1056.6px;
+  margin: 100px auto;
+}
+.left, .top, .right, .leftsquare, .rightsquare {
+  float: left;
+}
+.left {
+  width: 128.3px;
+  height: 535px;
+  margin-bottom: 75px;
+  background-color: #25DEB1;
+}
+.top {
+  width: 780px;
+  height: 140px;
+  margin-right: 15px;
+  background-color: #25DEB1;
+}
+.right {
+  width: 128.3px;
+  height: 535px;
+  margin-top: 15px;
+  margin-bottom: 75px;
+  background-color: #25DEB1;
+}
+.leftsquare {
+  width: 385px;
+  height: 385px;
+  background-color: #25DEB1;
+}
+.rightsquare {
+  width: 385px;
+  height: 385px;
+  background-color: #25DEB1;
+}
