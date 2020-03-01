@@ -3,16 +3,15 @@ body {
   background-color: #FCF4D0;
 }
 .container {
-  width: 1056.6px;
+  width: 1060px;
   margin: 100px auto;
 }
 .container2 {
-  width: 1056.6px;
+  width: 1060px;
   height: 535px;
-  margin-bottom: 10px;
 }
 .container3 {
-  width: 1056.6px;
+  width: 1060px;
   height: 535px;
 }
 .left, .top, .right, .leftsquare, .rightsquare, .left2, .top2, .right2, .leftsquare2, .rightsquare2  {
