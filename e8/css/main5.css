@@ -3,9 +3,12 @@ body {
   background-color: #FCF4D0;
 }
 .container {
-  width: 950px;
+  width: 980px;
   margin: 100px auto;
   background-color: #25DEB1;
+}
+.container1 {
+  width: 310px;
 }
 .container2 {
   width: 325px;
@@ -14,7 +17,7 @@ body {
 .container3 {
   width: 310px;
 }
-.short, .short2, .thin, .medium, .tall, .container1, .container2,.container3 {
+.short, .short2, .thin, .medium, .tall, .container1, .container2, .container3 {
   float: left;
 }
 .short {
@@ -42,5 +45,7 @@ body {
   margin: 2px 4px 0px 0px;
 }
 .tall {
+  width: 70.25px;
+  height: 182px;
   background-color: #25DEB1;
 }
