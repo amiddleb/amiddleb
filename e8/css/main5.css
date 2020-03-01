@@ -5,23 +5,35 @@ body {
 .container {
   width: 980px;
   margin: 100px auto;
+  background-color: #25DEB1;
+}
+.container2 {
+  width: 300px;
+  margin: 0px 2px;
 }
 .container3 {
   width: 300px;
 }
-.short, .thin, .medium, .tall {
+.short, .thin, .medium, .tall, .container1, .container2,.container3 {
   float: left;
 }
 .short {
   width: 33.125px;
   height: 60px;
+  margin: 2px;
   background-color: #25DEB1;
 }
 .thin {
   background-color: #25DEB1;
+  width: 37.125px;
+  height: 120px;
+  margin: 2px 2px;
 }
 .medium {
   background-color: #25DEB1;
+  width: 70.25px;
+  height: 120px;
+  margin: 2px 2px;
 }
 .tall {
   background-color: #25DEB1;
