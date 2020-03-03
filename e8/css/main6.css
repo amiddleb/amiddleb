@@ -11,7 +11,11 @@ body {
 }
 .container1 {
   width: 200px;
-  height: 800px;
+  height: 900px;
+}
+.container2 {
+  width: 100px;
+  height: 600px;
 }
 .little {
   width: 100px;
@@ -19,7 +23,7 @@ body {
   background-color: #25DEB1;
   border: 5px solid white;
 }
-.little, .tall, .medium, .container1, .doublemedium {
+.little, .tall, .medium, .container1, .container2, .doublemedium {
   float: left;
 }
 .tall {
