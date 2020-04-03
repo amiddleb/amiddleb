@@ -22,7 +22,7 @@ h4 {
 p {
   font-family: Arial Black;
   font-size: 24px;
-  line-height: 33;
+  line-height: 1.4;
 }
 
 .container {
@@ -36,22 +36,46 @@ p {
   margin: 0  0 20% 0;
   }
 .titles {
+  width: 100%;
   text-align: right;
   line-height: 0;
-  margin: 0 0 5px 0;
 }
 .chapterText {
-  margin: 0 auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
     body {
-      background-color: blue;
+      background-color: yellow;
     }
-}
+    h4  {
+      font-size: 70px;
+    }
+    }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: yellow;
-  }
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: coral;
+    }
+    h1 {
+      font-size: 45px;
+    }
+
+    h2, h3 {
+      font-size: 25px;
+    }
+
+    h4 {
+      font-size: 60px;
+    }
+    .container {
+    margin: 50px auto;
+    }
+    .chapterText {
+    margin-top: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
+    }
 }
