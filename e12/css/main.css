@@ -3,17 +3,47 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-family: Arial Black;
+  font-size: 62px;
+}
+
+h2, h3 {
+  font-family: Arial Hebrew;
+  font-weight: normal;
+  font-size: 39px;
+}
+
+h4 {
+  font-family: Arial Black;
+  font-size: 114px;
+}
+
+p {
+  font-family: Arial Black;
+  font-size: 24px;
+  line-height: 33;
+}
+
 .container {
   width: 90vw;
   margin: 100px auto;
 }
 .header {
   width: 100%;
+  text-align: right;
+  line-height: .9;
+  margin: 0  0 20% 0;
+  }
+.titles {
+  text-align: right;
+  line-height: 0;
+  margin: 0 0 5px 0;
 }
-.mainText {
-  width: 50%;
-  margin: 30% 0 0 50%;
+.chapterText {
+  margin: 0 auto;
 }
+
 @media only screen and (max-width: 1000px) {
     body {
       background-color: blue;
