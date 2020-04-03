@@ -31,6 +31,10 @@ p {
   width: 50%;
   float: left;
 }
+.text1 {
+  height: 1000px;
+  width: 50%;
+}
 .littlesquare {
   background-color: #E5DCDC;
   width: 100%;
