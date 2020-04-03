@@ -2,20 +2,14 @@ body {
   margin: 0;
 }
 h1 {
-  font-family: ;
-  font-size: ;
+  font-family: Coquette;
+  font-size: 159px;
+  color: #831313;
 }
 h2 {
-  font-family: ;
-  font-size: ;
-}
-h3 {
-  font-family: ;
-  font-size: ;
-}
-h4 {
-  font-family: ;
-  font-family: ;
+  font-family: Helvetica Neue;
+  font-size: 38px;
+  color: #B75F5F;
 }
 p {
   font-family: ;
@@ -27,11 +21,45 @@ p {
   margin-top: 200px;
   margin-bottom: 100px;
 }
-.topBar {
+.header {
   background-color: #E5DCDC;
-}
-.title {
-  margin: 0px auto;
-  width: 100%;
   text-align: center;
+  margin-bottom: 90px;
+}
+.leftsquares {
+  height: 1000px;
+  width: 50%;
+  float: left;
+}
+.littlesquare {
+  background-color: #E5DCDC;
+  width: 100%;
+  height: 250px;
+  float: left;
+  margin-bottom: 400px;
+}
+.littlesquare2 {
+  background-color: blue;
+  width: 100%;
+  height: 250px;
+  float: left;
+}
+.rightsquares {
+  height: 1000px;
+  width: 50%;
+  float: left;
+  margin-left: 50%;
+}
+.littlesquare3 {
+  background-color: green;
+  width: 100%;
+  height: 250px;
+  float: left;
+  margin-bottom: 400px;
+}
+.littlesquare4 {
+  background-color: red;
+  width: 100%;
+  height: 250px;
+  float: left;
 }
