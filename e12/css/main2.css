@@ -2,9 +2,12 @@ body {
   margin: 0;
 }
 h1 {
-  font-family: Coquette;
   font-size: 159px;
   color: #831313;
+  font-family: coquette, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 11px;
 }
 h2 {
   font-family: Helvetica Neue;
@@ -94,9 +97,63 @@ img {
   margin-top: 260px;
 }
 @media only screen and (max-width: 1024px) {
-
+  body {
+    background-color: blue;
+  }
+  h1 {
+    font-size: 125px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .container {
+    margin-top: 150px;
+  }
+  .image1 {
+    margin-top: 330px;
+  }
+  .image2 {
+    margin-top: 330px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-
+  body {
+    background-color: green;
+  }
+  h1 {
+    font-size: 105px;
+  }
+  h2 {
+    font-size: 23px;
+  }
+  .container {
+    margin-top: 70px;
+  }
+  .image1 {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .image2 {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .leftsquares {
+    width: 100%;
+  }
+  .rightsquares {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .text1 {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+  .text2 {
+    width: 100%;
+    margin-left: 0%;
+    position: absolute;
+    z-index: 2;
+  }
 }
