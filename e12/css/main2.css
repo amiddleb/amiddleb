@@ -51,7 +51,7 @@ p {
   float: left;
 }
 .littlesquare2 {
-  background-color: blue;
+  background-color: #E5DCDC;
   width: 100%;
   height: 250px;
   float: left;
@@ -63,13 +63,13 @@ p {
   z-index: 1;
 }
 .littlesquare3 {
-  background-color: green;
+  background-color: #E5DCDC;
   width: 100%;
   height: 250px;
   float: left;
 }
 .littlesquare4 {
-  background-color: red;
+  background-color: #E5DCDC;
   width: 100%;
   height: 250px;
   float: left;
