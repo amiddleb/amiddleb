@@ -7,12 +7,10 @@ body {
 }
 .header {
   width: 100%;
+  float: left;
+  margin-bottom: 200px;
 }
 .pic1 {
-  width: 40%;
-  float: left;
-}
-.pic2 {
   width: 40%;
   float: left;
 }
@@ -27,14 +25,15 @@ img {
 }
 .bodyContent {
   width: 100%;
-  float: left;
-  margin-top: 200px;
 }
+.introSection {
+  width: 100%;
+  }
 .introText {
   float: left;
   width: 40%;
 }
-.introSection {
-  margin-left: auto;
-  margin-right: auto;
+.pic2 {
+  width: 40%;
+  float: left;
 }
