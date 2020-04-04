@@ -93,3 +93,10 @@ img {
   float: left;
   margin-top: 260px;
 }
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
