@@ -26,6 +26,11 @@ h1 {
   font-style: normal;
   font-size: 78px;
 }
+h2 {
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  font-weight: normal;
+}
 img {
   width: 100%;
 }
@@ -38,6 +43,10 @@ img {
 h3 {
   float: left;
   width: 100%;
+  font-family: chaparral-pro, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 27px;
 }
 .introText {
   float: left;
