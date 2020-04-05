@@ -40,6 +40,16 @@ img {
 .introSection {
   width: 100%;
   }
+h4 {
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  font-style: italic;
+}
+p {
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  font-weight: normal;
+}
 h3 {
   float: left;
   width: 100%;
