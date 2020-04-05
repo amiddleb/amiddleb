@@ -20,6 +20,12 @@ body {
   width: 50%;
   float: left;
 }
+h1 {
+  font-family: chaparral-pro, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 78px;
+}
 img {
   width: 100%;
 }
