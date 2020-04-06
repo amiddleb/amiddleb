@@ -7,8 +7,8 @@ body {
 }
 .header {
   width: 100%;
-  float: left;
   margin-bottom: 200px;
+  position: relative;
 }
 .titleAuthor {
   margin-top: 100px;
@@ -18,7 +18,9 @@ body {
 }
 .pic1 {
   width: 50%;
-  float: left;
+  height: 500px;
+  background: url(../pictures/P2_pics/Almonds_8.jpg) no-repeat center center; 
+  background-size: cover;
 }
 h1 {
   font-family: chaparral-pro, serif;

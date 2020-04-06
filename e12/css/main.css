@@ -38,7 +38,7 @@ p {
 .titles {
   width: 100%;
   text-align: right;
-  line-height: 0;
+  line-height: 1;
 }
 .chapterText {
   margin-left: 10%;
