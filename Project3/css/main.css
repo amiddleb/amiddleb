@@ -6,20 +6,29 @@ body {
   margin: 30px 0 40px 0;
 }
 .header {
+  /* background-color: blue; */
   width: 100%;
   margin-bottom: 200px;
+  /* added relative positioning to let inside parts's positioning relative to this div's info. */
   position: relative;
 }
+.byline {
+  position: absolute;
+  bottom: 35px;
+  right: 30px;
+}
 .titleAuthor {
-  margin-top: 100px;
-  width: 50%;
-  float: left;
+  width: 65%;
+  padding: 30px;
+  position: absolute;
+  top: 140px;
+  right: 0px;
   background-color: white;
 }
 .pic1 {
   width: 50%;
   height: 500px;
-  background: url(../pictures/P2_pics/Almonds_8.jpg) no-repeat center center; 
+  background: url(../pictures/P2_pics/Almonds_8.jpg) no-repeat center center;
   background-size: cover;
 }
 h1 {
@@ -27,20 +36,24 @@ h1 {
   font-weight: 700;
   font-style: normal;
   font-size: 78px;
+  margin: 0;
 }
 h2 {
   font-family: Helvetica Neue;
   font-size: 16px;
   font-weight: normal;
+  margin: 13px;
 }
 img {
   width: 100%;
 }
 .bodyContent {
-  width: 100%;
+  width: 80%;
+  margin:0px auto;
 }
 .introSection {
-  width: 100%;
+  width: 80%;
+  margin: 0px auto;
   }
 h4 {
   font-family: Helvetica Neue;
