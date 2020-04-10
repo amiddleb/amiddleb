@@ -182,28 +182,31 @@ h3 {
 .number2 {
   /* float: left; */
   height: 100px;
-  /* position: absolute; */
-  left: 0%;
+  position: absolute;
+  right: 45%;
+  bottom: 30px;
   background-color: yellow;
 }
 .text2 {
   width: 40%;
   position: absolute;
   left: 20px;
+  top: 100px;
   margin-left: 50%;
   margin-bottom: 200px;
-  float: left;
+  /* float: left; */
 }
 .section4 {
   width: 100%;
-  margin-top: 70%;
+  /* margin-top: 100%; */
   position: relative;
 }
 .number3 {
   /* float: left; */
   height: 100px;
   position: absolute;
-  right: 0px;
+  right: 50%;
+  top: 80px;
   bottom: 360px;
   background-color: yellow;
 }
@@ -217,7 +220,7 @@ h3 {
 .text3 {
   width: 40%;
   float: left;
-  margin-left: 8%;
+  margin-left: 9%;
   /* margin-top: 100px; */
   position: absolute;
   top: 280px;
