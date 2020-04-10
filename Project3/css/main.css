@@ -197,25 +197,30 @@ h3 {
 .section4 {
   width: 100%;
   margin-top: 70%;
-  /* position: relative; */
+  position: relative;
 }
 .number3 {
   /* float: left; */
   height: 100px;
-  /* position: absolute; */
-  left: 0%;
+  position: absolute;
+  right: 0px;
+  bottom: 360px;
   background-color: yellow;
 }
 .pic5 {
   width: 50%;
-  height: 10%;
+  /* height: 10%; */
   float: left;
   margin-left: 50%;
+  margin-top: 200px;
 }
 .text3 {
   width: 40%;
   float: left;
-  /* position: absolute; */
+  margin-left: 8%;
+  /* margin-top: 100px; */
+  position: absolute;
+  top: 280px;
 
 }
 .section5 {
