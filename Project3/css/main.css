@@ -74,15 +74,15 @@ h5 {
   padding-top: 100px;
 }
 h6 {
-  float: left;
+  /* float: left; */
   width: 10%;
   font-family: chaparral-pro, serif;
   font-weight: 700;
   font-style: normal;
   font-size: 61px;
-  /* background-color: blue; */
-  padding-left: 20px;
-  padding-right: 20px;
+  background-color: blue;
+  /* padding-left: 20px; */
+  /* padding-right: 20px; */
   /* padding-bottom: 100px; */
   /* padding-top: 20px; */
 }
@@ -176,18 +176,20 @@ h3 {
 .pic4 {
   width: 50%;
   float: left;
+  margin-right: 20px;
   /* background: url(../pictures/P2_pics/Almonds_5.jpg) no-repeat center center; */
 }
 .number2 {
-  float: left;
+  /* float: left; */
+  height: 100px;
   position: absolute;
-  left: 30px;
+  left: 0%;
   background-color: yellow;
 }
 .text2 {
-  width: 50%;
+  width: 40%;
   position: absolute;
-  top: 100px;
+  left: 20px;
   margin-left: 50%;
   float: left;
 }
