@@ -191,10 +191,12 @@ h3 {
   position: absolute;
   left: 20px;
   margin-left: 50%;
+  margin-bottom: 200px;
   float: left;
 }
 .section4 {
   width: 100%;
+  margin-top: 70%;
   /* position: relative; */
 }
 .number3 {
@@ -206,7 +208,7 @@ h3 {
 }
 .pic5 {
   width: 50%;
-  height: 30%;
+  height: 10%;
   float: left;
   margin-left: 50%;
 }
@@ -214,6 +216,7 @@ h3 {
   width: 40%;
   float: left;
   /* position: absolute; */
+
 }
 .section5 {
   width: 100%;
