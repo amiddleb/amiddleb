@@ -67,11 +67,11 @@ h5 {
   font-weight: 700;
   font-style: normal;
   font-size: 61px;
-  background-color: blue;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 40px;
-  padding-top: 200px;
+  /* background-color: blue; */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-top: 100px;
 }
 h6 {
   float: left;
@@ -81,29 +81,29 @@ h6 {
   font-style: normal;
   font-size: 61px;
 }
-h7 {
-  float: left;
-  width: 10%;
-  font-family: chaparral-pro, serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 61px;
+/* h7 { */
+  /* float: left; */
+  /* width: 10%; */
+  /* font-family: chaparral-pro, serif; */
+  /* font-weight: 700; */
+  /* font-style: normal; */
+  /* font-size: 61px; */
 }
-h8 {
-  float: left;
-  width: 10%;
-  font-family: chaparral-pro, serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 61px;
+/* h8 { */
+  /* float: left; */
+  /* width: 10%; */
+  /* font-family: chaparral-pro, serif; */
+  /* font-weight: 700; */
+  /* font-style: normal; */
+  /* font-size: 61px; */
 }
-h9 {
-  float: left;
-  width: 10%;
-  font-family: chaparral-pro, serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 61px;
+/* h9 { */
+  /* float: left; */
+  /* width: 10%; */
+  /* font-family: chaparral-pro, serif; */
+  /* font-weight: 700; */
+  /* font-style: normal; */
+  /* font-size: 61px; */
 }
 p {
   font-family: Helvetica Neue;
@@ -131,6 +131,7 @@ h3 {
 .section2 {
   width: 60%;
   margin-left: 40%;
+  position: relative;
   /* margin-left: 50%; */
 }
 .greenShape {
@@ -152,13 +153,14 @@ h3 {
 .text1 {
   width: 80%;
   float: left;
-  margin-left: 10%;
-  /* position: relative; */
+  margin-left: 15%;
 }
 .number1 {
-  /* position: absolute; */
   float: left;
-  background-color: red;
+  position: absolute;
+  top: 390px;
+  left: 30px;
+  background-color: white;
 }
 .section3 {
   width: 100%;
