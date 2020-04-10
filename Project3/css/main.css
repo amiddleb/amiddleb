@@ -80,6 +80,7 @@ h6 {
   font-weight: 700;
   font-style: normal;
   font-size: 61px;
+  background-color: blue;
 }
 /* h7 { */
   /* float: left; */
@@ -88,7 +89,7 @@ h6 {
   /* font-weight: 700; */
   /* font-style: normal; */
   /* font-size: 61px; */
-}
+/* } */
 /* h8 { */
   /* float: left; */
   /* width: 10%; */
@@ -96,7 +97,7 @@ h6 {
   /* font-weight: 700; */
   /* font-style: normal; */
   /* font-size: 61px; */
-}
+/* } */
 /* h9 { */
   /* float: left; */
   /* width: 10%; */
@@ -104,7 +105,7 @@ h6 {
   /* font-weight: 700; */
   /* font-style: normal; */
   /* font-size: 61px; */
-}
+/* } */
 p {
   font-family: Helvetica Neue;
   font-size: 16px;
