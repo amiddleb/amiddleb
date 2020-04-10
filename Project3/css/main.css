@@ -170,7 +170,7 @@ h3 {
 .section3 {
   width: 100%;
   margin-top: 70%;
-  margin-bottom: 200%;
+  margin-bottom: 100%;
   position: relative;
 }
 .pic4 {
@@ -182,7 +182,7 @@ h3 {
 .number2 {
   /* float: left; */
   height: 100px;
-  position: absolute;
+  /* position: absolute; */
   left: 0%;
   background-color: yellow;
 }
@@ -195,15 +195,25 @@ h3 {
 }
 .section4 {
   width: 100%;
+  /* position: relative; */
+}
+.number3 {
+  /* float: left; */
+  height: 100px;
+  /* position: absolute; */
+  left: 0%;
+  background-color: yellow;
 }
 .pic5 {
   width: 50%;
+  height: 30%;
   float: left;
   margin-left: 50%;
 }
 .text3 {
-  width: 50%;
+  width: 40%;
   float: left;
+  /* position: absolute; */
 }
 .section5 {
   width: 100%;
