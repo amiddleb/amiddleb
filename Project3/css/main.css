@@ -227,7 +227,16 @@ h3 {
 
 }
 .section5 {
-  width: 100%;
+  width: 80%;
+}
+.number4 {
+  /* float: left; */
+  height: 100px;
+  position: absolute;
+  right: 50%;
+  top: 80px;
+  bottom: 360px;
+  background-color: yellow;
 }
 .pic6 {
   width: 50%;
