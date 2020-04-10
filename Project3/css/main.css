@@ -124,8 +124,9 @@ h3 {
   float: left;
 }
 .section2 {
-  width: 50%;
-  margin-left: 50%;
+  width: 60%;
+  margin-left: 40%;
+  /* margin-left: 50%; */
 }
 .greenShape {
   background-color: #A2961B;
@@ -140,13 +141,16 @@ h3 {
 .pic3 {
   width: 100%;
   float: left;
+  height: 600px;
+  background: url(../pictures/P2_pics/Almonds_3.jpg) no-repeat center center;
 }
 .text1 {
-  width: 100%;
+  width: 80%;
   float: left;
 }
 .section3 {
   width: 100%;
+  margin-top: 70%;
 }
 .pic4 {
   width: 50%;
