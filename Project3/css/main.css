@@ -67,6 +67,11 @@ h5 {
   font-weight: 700;
   font-style: normal;
   font-size: 61px;
+  background-color: blue;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 200px;
 }
 h6 {
   float: left;
@@ -147,6 +152,13 @@ h3 {
 .text1 {
   width: 80%;
   float: left;
+  margin-left: 10%;
+  /* position: relative; */
+}
+.number1 {
+  /* position: absolute; */
+  float: left;
+  background-color: red;
 }
 .section3 {
   width: 100%;
