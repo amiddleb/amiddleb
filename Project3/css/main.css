@@ -241,7 +241,7 @@ h3 {
   /* top: 80px; */
   bottom: 0px;
   top: 100%;
-  left: 50%;
+  left: 51%;
   height: 200px;
   background-color: yellow;
 }
@@ -251,7 +251,9 @@ h3 {
 }
 .text4 {
   width: 50%;
-  /* position: absolute; */
+  position: absolute;
+  top: 125%;
+  left: 51%;
   float: left;
 }
 .section6 {
