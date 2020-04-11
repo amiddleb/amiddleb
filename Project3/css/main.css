@@ -242,7 +242,7 @@ h3 {
   bottom: 0px;
   top: 100%;
   left: 50%;
-  height: 100px;
+  height: 200px;
   background-color: yellow;
 }
 .pic6 {
@@ -251,6 +251,7 @@ h3 {
 }
 .text4 {
   width: 50%;
+  /* position: absolute; */
   float: left;
 }
 .section6 {
