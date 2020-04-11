@@ -200,6 +200,7 @@ h3 {
   width: 100%;
   /* margin-top: 100%; */
   position: relative;
+  top: 200px;
 }
 .number3 {
   /* float: left; */
@@ -228,14 +229,18 @@ h3 {
 }
 .section5 {
   width: 80%;
+  margin:auto;
+  position: relative;
+  top: 400px;
 }
 .number4 {
   /* float: left; */
-  height: 100px;
+  /* height: 100px; */
   position: absolute;
-  right: 50%;
-  top: 80px;
-  bottom: 360px;
+  left: 50%;
+  /* top: 80px; */
+  bottom: 0px;
+  top: 100%;
   background-color: yellow;
 }
 .pic6 {
