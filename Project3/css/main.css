@@ -241,6 +241,8 @@ h3 {
   /* top: 80px; */
   bottom: 0px;
   top: 100%;
+  left: 50%;
+  height: 100px;
   background-color: yellow;
 }
 .pic6 {
