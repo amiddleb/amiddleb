@@ -258,22 +258,37 @@ h3 {
 }
 .section6 {
   width: 100%;
+  position: relative;
+  top: 1000px;
 }
 .number5 {
-  
+  /* float: left; */
+  position: absolute;
+  left: 50%;
+  /* bottom: 30px; */
+  top: 230%;
+  left: 45%;
+  height: 100px;
+  background-color: yellow;
 }
 .pic7 {
   width: 50%;
+  position: absolute;
   float: left;
   margin-left: 50%;
 }
 .text5 {
-  width: 50%;
+  position: absolute;
+  top: 160px;
+  width: 40%;
+  margin-left: 80px;
   float: left;
 }
 .section7 {
-  width: 50%;
-  padding-left: 60px;
+  width: 60%;
+  margin-left: 10%;
+  position: relative;
+  top: 1300px;
 }
 .pic8 {
   width: 100%;
