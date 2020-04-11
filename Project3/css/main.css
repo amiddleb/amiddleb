@@ -298,3 +298,68 @@ h3 {
   width: 100%;
   float: left;
 }
+@media only screen and (max-width: 1024px) {
+  .pic1 {
+    height: 320px;
+  }
+  h1 {
+    font-size: 58px;
+  }
+  .titleAuthor {
+    padding: 17px;
+    top: 100px;
+  }
+  .byline {
+    bottom: 0px;
+    top: 80px;
+    right: 80px;
+  }
+  h3 {
+    font-size: 17px;
+  }
+  .introText {
+    width: 43%;
+    margin-right: 20px;
+  }
+  .section2 {
+    top: 70px;
+  }
+  .text1 {
+    width: 60%;
+    margin-left: 20%;
+  }
+  h5 {
+    padding-top: 116px;
+  }
+  .number1 {
+    top: 390px;
+    left: 30px;
+  }
+  .section3 {
+    margin-top: 112%;
+  }
+  .number2 {
+    right: 43%;
+    bottom: 3px;
+  }
+  .text2 {
+    width: 35%;
+  }
+  .section4 {
+    top: 520px;
+  }
+  .number3 {
+    bottom: 10px;
+  }
+  .text3 {
+    width: 37%;
+    margin-left: 12%;
+    top: 570px;
+  }
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 320px) {
+
+}
