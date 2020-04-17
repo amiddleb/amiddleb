@@ -10,6 +10,14 @@ body {
   /* top: 45%; */
   background-color: #FFEECF;
 }
+.text {
+  font-size: 20px;
+  font-family: 'Baloo';
+  color: salmon;
+  position:absolute;
+  top: 15%;
+  left: 33%;
+}
 .oventop {
   position: absolute;
   width: 185px;
@@ -38,7 +46,7 @@ body {
   position: absolute;
   width: 170px;
   height: 15px;
-  top: 48%;
+  top: 47%;
   left: 29%;
   background-color: #133E78;
 }
