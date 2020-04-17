@@ -14,15 +14,15 @@ body {
   position: absolute;
   width: 185px;
   height: 30px;
-  top: 33%;
+  top: 34%;
   left: 27%;
   background-color: #A9F7BE;
 }
 .ovensurface {
   position: absolute;
   width: 210px;
-  height: 30px;
-  top: 39%;
+  height: 23px;
+  top: 40%;
   left: 24%;
   background-color: #8BE3A3;
 }
@@ -41,4 +41,12 @@ body {
   top: 47%;
   left: 29%;
   background-color: #133E78;
+}
+.window {
+  position: absolute;
+  top: 53%;
+  left: 32%;
+  width: 145px;
+  height: 90px;
+  background-color: #D5E2F5;
 }
