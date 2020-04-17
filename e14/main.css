@@ -6,7 +6,7 @@ body {
   height: 450px;
   position: relative;
   left: 35%;
-  margin-top: 12%;
+  margin-top: 8%;
   /* top: 45%; */
   background-color: #FFEECF;
   border-style: solid;
@@ -18,7 +18,7 @@ body {
   font-family: 'Baloo';
   color: salmon;
   position:absolute;
-  top: 15%;
+  top:80%;
   left: 33%;
 }
 .oventop {
