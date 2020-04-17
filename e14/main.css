@@ -50,3 +50,11 @@ body {
   height: 90px;
   background-color: #D5E2F5;
 }
+.rack {
+  background-color: #1F324F;
+  position: absolute;
+  width: 145px;
+  height: 5px;
+  top: 66%;
+  left: 32%;
+}
