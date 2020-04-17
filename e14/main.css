@@ -25,6 +25,7 @@ body {
   top: 35%;
   left: 27%;
   background-color: #A9F7BE;
+  border-radius: 5px;
 }
 .ovensurface {
   position: absolute;
@@ -33,6 +34,7 @@ body {
   top: 41%;
   left: 24%;
   background-color: #8BE3A3;
+  border-radius: 5px;
 }
 .ovenbody {
   width: 210px;
@@ -41,6 +43,7 @@ body {
   position: absolute;
   left: 24%;
   top: 45%;
+  border-radius: 5px;
 }
 .handle {
   position: absolute;
@@ -49,6 +52,7 @@ body {
   top: 47%;
   left: 29%;
   background-color: #133E78;
+  border-radius: 5px;
 }
 .window {
   position: absolute;
