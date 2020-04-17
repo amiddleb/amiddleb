@@ -77,8 +77,39 @@ body {
 .cakestripe {
   position: absolute;
   left: 38%;
-  top: 60%;
+  top: 58%;
+  margin-bottom: 5px;
   width: 95px;
-  height: 10px;
+  height: 6px;
   background-color: #502006;
+}
+.cakestripe2 {
+  position: absolute;
+  left: 38%;
+  top: 62%;
+  width: 95px;
+  height: 6px;
+  background-color: #502006;
+}
+.button, .button2, .button3, .button4 {
+  background-color:#133E78;
+  width: 10px;
+  height: 10px;
+  top: 37%;
+}
+.button {
+  position:absolute;
+  left: 33%;
+}
+.button2 {
+  position:absolute;
+  left: 41%;
+}
+.button3 {
+  position:absolute;
+  left: 57%;
+}
+.button4 {
+  position:absolute;
+  left: 65%;
 }
