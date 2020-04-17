@@ -113,3 +113,11 @@ body {
   position:absolute;
   left: 65%;
 }
+.time {
+  position:absolute;
+  top: 36.75%;
+  left: 45.5%;
+  background-color: white;
+  width: 39px;
+  height: 12px;
+}
