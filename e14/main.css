@@ -34,3 +34,11 @@ body {
   left: 24%;
   top: 45%;
 }
+.handle {
+  position: absolute;
+  width: 170px;
+  height: 15px;
+  top: 47%;
+  left: 29%;
+  background-color: #133E78;
+}
