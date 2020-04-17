@@ -14,15 +14,15 @@ body {
   position: absolute;
   width: 185px;
   height: 30px;
-  top: 34%;
+  top: 35%;
   left: 27%;
   background-color: #A9F7BE;
 }
 .ovensurface {
   position: absolute;
   width: 210px;
-  height: 23px;
-  top: 40%;
+  height: 20px;
+  top: 41%;
   left: 24%;
   background-color: #8BE3A3;
 }
@@ -57,4 +57,20 @@ body {
   height: 5px;
   top: 66%;
   left: 32%;
+}
+.cakebody {
+  position: absolute;
+  top: 55.5%;
+  left: 38%;
+  width: 95px;
+  height: 48px;
+  background-color: #C6957A;
+}
+.cakestripe {
+  position: absolute;
+  left: 38%;
+  top: 60%;
+  width: 95px;
+  height: 10px;
+  background-color: #502006;
 }
