@@ -9,6 +9,8 @@ body {
   margin-top: 12%;
   /* top: 45%; */
   background-color: #FFEECF;
+  border-style: solid;
+  border-color: #FCCC75;
 }
 .text {
   font-size: 20px;
@@ -77,6 +79,7 @@ body {
   width: 95px;
   height: 48px;
   background-color: #C6957A;
+  border-radius: 5px;
 }
 .cakestripe {
   position: absolute;
