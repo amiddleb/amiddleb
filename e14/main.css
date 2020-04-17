@@ -96,6 +96,7 @@ body {
   width: 10px;
   height: 10px;
   top: 37%;
+  border-radius: 50%;
 }
 .button {
   position:absolute;
@@ -119,5 +120,13 @@ body {
   left: 45.5%;
   background-color: white;
   width: 39px;
-  height: 12px;
+  height: 15px;
+}
+.numbers {
+  font-family: 'Baloo';
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  top: 33.75%;
+  left: 47.75%;
 }
