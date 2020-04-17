@@ -10,6 +10,7 @@ body {
   /* top: 45%; */
   background-color: #FFEECF;
   border-style: solid;
+  border-width: thick;
   border-color: #FCCC75;
 }
 .text {
