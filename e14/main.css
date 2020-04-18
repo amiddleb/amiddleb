@@ -65,7 +65,7 @@ body {
   left: 32%;
   width: 145px;
   height: 90px;
-  background-color: #D5E2F5;
+  background-color: #FFFA8B;
 }
 .rack {
   background-color: #1F324F;
@@ -153,6 +153,24 @@ body {
 }
 .scenecontainer1 {
   left: 4%;
+}
+.asterik {
+  font-size: 40px;
+  font-family: 'Baloo';
+  color: #133E78;
+  position:absolute;
+  top: 35%;
+  left: 18%;
+  animation-name: asterik;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes asterik {
+  0% {left: 18%;}
+  25% {left: 19%;}
+  50% {left: 18%;}
+  75% {left: 17%;}
+  100% {left: 18%;}
 }
 .cover, .pages {
   position:absolute;
@@ -315,6 +333,7 @@ body {
   height: 35px;
   left: 49.5%;
   background-color: tomato;
+  border-radius: 3px;
 }
 .flame {
   position: absolute;
@@ -322,7 +341,7 @@ body {
   width: 13px;
   height: 19px;
   left: 48.75%;
-  background-color: #F9F140;
+  background-color: #FFAB0C;
   border-radius: 50%;
   animation-name: flame;
   animation-duration: 1s;
