@@ -1,17 +1,19 @@
 body {
   margin: 0;
 }
-.scenecontainer {
+.scenecontainer1, .scenecontainer2, .scenecontainer3 {
   width: 400px;
   height: 450px;
   position: relative;
-  left: 35%;
   margin-top: 8%;
-  /* top: 45%; */
   background-color: #FFEECF;
   border-style: solid;
   border-width: thick;
   border-color: #FCCC75;
+  float:left;
+}
+.scenecontainer2 {
+  left: 7%;
 }
 .text {
   font-size: 20px;
@@ -137,4 +139,55 @@ body {
   position: absolute;
   top: 33.75%;
   left: 47.75%;
+}
+.scenecontainer1 {
+  left: 4%;
+}
+.cover, .pages {
+  position:absolute;
+}
+.cover {
+  background-color: #DF503A;
+  top: 45%;
+  left: 24%;
+  width: 185px;
+  height: 125px;
+  border-radius: 2px;
+}
+.pages {
+  background-color: #FFFFFF;
+  width: 146px;
+  height: 100px;
+  top: 47.5%;
+  left: 29%;
+}
+.picture {
+  position: absolute;
+  background-color: #C6957A;
+  width: 35px;
+  height: 39px;
+  top: 49%;
+  left: 31%;
+}
+.recipe, .recipe2, .recipe3, .recipe4 {
+  position: absolute;
+  background-color: grey;
+  width: 17px;
+  height: 7px;
+  top: 60%;
+}
+.recipe {
+  left: 31%;
+}
+.recipe2 {
+  left: 39%;
+}
+.recipe3 {
+  left: 47%;
+}
+.recipe4 {
+  left: 55%;
+}
+.scenecontainer3 {
+  left: 10%;
 }
