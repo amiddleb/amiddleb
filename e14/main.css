@@ -77,14 +77,25 @@ body {
 }
 .cakebody {
   position: absolute;
-  top: 55.5%;
+  /* top: 61.5%; */
+  bottom: 34%;
   left: 38%;
   width: 95px;
-  height: 48px;
+  height: 40px;
   background-color: #C6957A;
   border-radius: 5px;
+  animation-name: cakebody;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
-.cakestripe {
+@keyframes cakebody {
+  0% {height: 15px;}
+  25% {height: 25px;}
+  50% {height: 30px;}
+  75% {height: 35px;}
+  100% {height: 40px;}
+}
+/* .cakestripe {
   position: absolute;
   left: 38%;
   top: 58%;
@@ -92,15 +103,15 @@ body {
   width: 95px;
   height: 6px;
   background-color: #502006;
-}
-.cakestripe2 {
+} */
+/* .cakestripe2 {
   position: absolute;
   left: 38%;
   top: 62%;
   width: 95px;
   height: 6px;
   background-color: #502006;
-}
+} */
 .button, .button2, .button3, .button4 {
   background-color:#133E78;
   width: 10px;
@@ -256,20 +267,22 @@ body {
 }
 .cakestripeB {
   position: absolute;
-  left: 27%;
+  left: 26%;
   top: 47%;
   margin-bottom: 5px;
-  width: 190px;
+  width: 198px;
   height: 12px;
   background-color: #502006;
+  border-radius: 5px;
 }
 .cakestripeC {
   position: absolute;
-  left: 27%;
+  left: 26%;
   top: 54%;
-  width: 190px;
+  width: 198px;
   height: 12px;
   background-color: #502006;
+  border-radius: 5px;
 }
 .plate, .stand, .base {
   position: absolute;
@@ -290,8 +303,35 @@ body {
 }
 .base {
   top: 77%;
-  width: 50px;
+  width: 57px;
   height: 11px;
   border-radius: 50%;
-  left: 43.5%;
+  left: 42.75%;
+}
+.candle {
+  position: absolute;
+  top: 33.5%;
+  width: 9px;
+  height: 35px;
+  left: 49.5%;
+  background-color: tomato;
+}
+.flame {
+  position: absolute;
+  top: 27%;
+  width: 13px;
+  height: 19px;
+  left: 48.75%;
+  background-color: #F9F140;
+  border-radius: 50%;
+  animation-name: flame;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes flame {
+  0% {left: 48.75%;}
+  25% {left: 50%;}
+  50% {left: 48.75%;}
+  75% {left: 47.5%;}
+  100% {left: 48.75%;}
 }
