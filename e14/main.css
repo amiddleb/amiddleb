@@ -149,8 +149,8 @@ body {
 .cover {
   background-color: #DF503A;
   top: 45%;
-  left: 24%;
-  width: 185px;
+  left: 27.25%;
+  width: 175px;
   height: 125px;
   border-radius: 2px;
 }
@@ -159,7 +159,7 @@ body {
   width: 146px;
   height: 100px;
   top: 47.5%;
-  left: 29%;
+  left: 31%;
 }
 .picture {
   position: absolute;
@@ -167,7 +167,7 @@ body {
   width: 35px;
   height: 39px;
   top: 49%;
-  left: 31%;
+  left: 33%;
 }
 .picture2 {
   position: absolute;
@@ -175,7 +175,15 @@ body {
   width: 35px;
   height: 39px;
   top: 49%;
-  left: 54.5%;
+  left: 56.5%;
+}
+.divider {
+  position: absolute;
+  background-color: tan;
+  width: 3px;
+  height: 100px;
+  top: 47.5%;
+  left: 49%;
 }
 .recipe, .recipe2, .recipe3, .recipe4 {
   position: absolute;
@@ -199,41 +207,67 @@ body {
   top: 66%;
 }
 .recipe {
-  left: 31%;
+  left: 33%;
 }
 .recipe2 {
-  left: 39%;
+  left: 41%;
 }
 .recipe3 {
-  left: 51%;
+  left: 53%;
 }
 .recipe4 {
-  left: 59%;
+  left: 61%;
 }
 .recipe5 {
-  left: 31%;
+  left: 33%;
 }
 .recipe6 {
-  left: 39%;
+  left: 41%;
 }
 .recipe7 {
-  left: 51%;
+  left: 53%;
 }
 .recipe8 {
-  left: 59%;
+  left: 61%;
 }
 .recipe9 {
-  left: 31%;
+  left: 33%;
 }
 .recipe10 {
-  left: 39%;
+  left: 41%;
 }
 .recipe11 {
-  left: 51%;
+  left: 53%;
 }
 .recipe12 {
-  left: 59%;
+  left: 61%;
 }
 .scenecontainer3 {
   left: 10%;
+}
+.cakebody2 {
+  position: absolute;
+  top: 50.5%;
+  left: 38%;
+  width: 190px;
+  height: 96px;
+  background-color: #C6957A;
+  border-radius: 5px;
+}
+.cakestripeB {
+  position: absolute;
+  left: 38%;
+  top: 56%;
+  margin-bottom: 5px;
+  width: 190px;
+  height: 12px;
+  background-color: #502006;
+}
+.cakestripeC {
+  position: absolute;
+  left: 38%;
+  top: 64%;
+  width: 190px;
+  height: 12px;
+  background-color: #502006;
 }
