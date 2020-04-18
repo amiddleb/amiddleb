@@ -169,12 +169,34 @@ body {
   top: 49%;
   left: 31%;
 }
+.picture2 {
+  position: absolute;
+  background-color: #C6957A;
+  width: 35px;
+  height: 39px;
+  top: 49%;
+  left: 54.5%;
+}
 .recipe, .recipe2, .recipe3, .recipe4 {
   position: absolute;
   background-color: grey;
   width: 17px;
   height: 7px;
   top: 60%;
+}
+.recipe5, .recipe6, .recipe7, .recipe8 {
+  position: absolute;
+  background-color: grey;
+  width: 17px;
+  height: 7px;
+  top: 63%;
+}
+.recipe9, .recipe10, .recipe11, .recipe12 {
+  position: absolute;
+  background-color: grey;
+  width: 17px;
+  height: 7px;
+  top: 66%;
 }
 .recipe {
   left: 31%;
@@ -183,10 +205,34 @@ body {
   left: 39%;
 }
 .recipe3 {
-  left: 47%;
+  left: 51%;
 }
 .recipe4 {
-  left: 55%;
+  left: 59%;
+}
+.recipe5 {
+  left: 31%;
+}
+.recipe6 {
+  left: 39%;
+}
+.recipe7 {
+  left: 51%;
+}
+.recipe8 {
+  left: 59%;
+}
+.recipe9 {
+  left: 31%;
+}
+.recipe10 {
+  left: 39%;
+}
+.recipe11 {
+  left: 51%;
+}
+.recipe12 {
+  left: 59%;
 }
 .scenecontainer3 {
   left: 10%;
