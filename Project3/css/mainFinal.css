@@ -27,7 +27,7 @@ img {
 .byline {
   position: absolute;
   bottom: 35px;
-  right: 30px;
+  right: 250px;
 }
 .titleAuthor {
   width: 65%;
@@ -192,414 +192,86 @@ p {
   font-weight: normal;
   line-height: 1.4;
 }
-/* @media only screen and (max-width: 1024px) {
-  .pic1 {
-    height: 320px;
-  }
-  h1 {
-    font-size: 58px;
-  }
-  .titleAuthor {
-    padding: 17px;
-    top: 100px;
-  }
+@media only screen and (max-width: 1024px) {
   .byline {
-    bottom: 0px;
-    top: 80px;
-    right: 80px;
-  }
-  h3 {
-    font-size: 17px;
-  }
-  .introText {
-    width: 43%;
-    margin-right: 20px;
-  }
-  .section2 {
-    top: 70px;
-  }
-  .text1 {
-    width: 60%;
-    margin-left: 20%;
-  }
-  h5 {
-    padding-top: 116px;
-  }
-  .number1 {
-    top: 390px;
-    left: 30px;
-  }
-  .section3 {
-    margin-top: 112%;
-  }
-  .number2 {
-    right: 43%;
-    bottom: 3px;
-  }
-  .text2 {
-    width: 35%;
-  }
-  .section4 {
-    top: 520px;
-  }
-  .number3 {
-    top: 380px;
-    right: 523px;
-  }
-  .text3 {
-    width: 37%;
-    margin-left: 12%;
-    top: 570px;
-  }
-  .section5 {
-    top: 650px;
-  }
-  .number4 {
-    left: 60%;
-    top: 112%;
-    left: 52%;
-  }
-  .text4 {
-    top: 138%;
-  }
-  .section6 {
-    top: 1400px;
-  }
-  .number5 {
-    left: 47%;
-    top: 180%;
-    height: 100px;
-  }
-  .text5 {
-    top: 100px;
-    width: 36%;
-    margin-left: 110px;
-  }
-  .section7 {
-    top: 1800px;
-  }
-} */
-@media only screen and (max-width: 768px) {
-  h1 {
-    font-size: 38px;
-  }
-  .header {
-    margin-bottom: 90px;
-    /* added relative positioning to let inside parts's positioning relative to this div's info. */
-    position: relative;
+    bottom: 15px;
+    right: 150px;
   }
   .titleAuthor {
-    padding: 17px;
-    top: 130px;
-    left: 302px;
+    top: 100px;
+    padding: 20px;
   }
+}
+@media only screen and (max-width: 768px) {
   .byline {
     bottom: 0px;
     top: 50px;
-    right: 80px;
+    right: 50px;
   }
-  h2 {
-    line-height: .5;
+  h1 {
+    font-size: 40px;
   }
-  .introSection {
-    width: 65%;
-    margin: 0px auto;
-    }
-  .introText {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
+  .titleAuthor {
+    padding: 10px;
+    top: 140px;
+    right: 0px;
+  }
+  .pic1 {
+    height: 350px;
   }
   h3 {
     font-size: 20px;
   }
+  .introSection, .section2, .section4, .section5, .section6, .section7 {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .introText {
+    width: 100%;
+  }
   .pic2 {
-    width: 85%;
-    margin-left: 30px;
+    width: 100%;
+    margin-left: 5%;
   }
   .section2 {
-    top: 100px;
-    width: 65%;
-    margin-left:auto;
-    margin-right:auto;
-  }
-  h5 {
-    padding-bottom: 0px;
+    margin-left: 0%;
   }
   .pic3 {
     width: 100%;
-    height: 400px;
   }
   .text1 {
     width: 100%;
-    margin-top: 47px;
-    margin-left:auto;
-    margin-right: auto;
+    margin-left: 40%;
+    margin-top: 12%;
   }
   h5 {
-    padding-top: 116px;
+    font-size: 51px;
   }
   .number1 {
-    top: 440px;
-    left: 25px;
+    top: 425px;
   }
   .section3 {
-    margin-top: 157%;
-    width: 65%;
-  }
-  .pic4 {
     width: 100%;
-    margin-right: 20px;
-  }
-  .number2 {
-    right: 43%;
-    top: 132px;
-    left: 40px;
-    bottom: 0px;
   }
   .text2 {
-    width: 100%;
-    margin-top: 230px;
-    margin-left: 95px;
+    width: 60%;
+    margin-left: 24%;
+    margin-top: 40px;
   }
-  .section4 {
-    top: 535px;
-    width: 65%;
-    margin-left:auto;
-    margin-right:auto;
+  .pic4 {
+    width: 70%;
   }
-  .pic5 {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 230px;
+  .number2 {
+    top: 230px;
+    left: 20px;
+    padding: 75px 10px 0 10px;
   }
-  .number3 {
-    top: 870px;
-    right: 30px;
-  }
-  .text3 {
-    width: 100%;
-    top: 1070px;
-    margin-left:auto;
-    margin-right:auto;
-  }
-  .section5 {
-    top: 1000px;
-    width: 65%;
-  }
-  .pic6 {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .number4 {
-    left: 6%;
-    top: 145%;
-  }
-  .text4 {
-    top: 168%;
-    left: 0%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-  .section6 {
-    top: 1940px;
-    width: 65%;
-  }
-  .number5 {
-    margin-top: 37%;
-    top: 380%;
-    left: 45%;
-    height: 100px;
-  }
-  .text5 {
-    top: 370px;
-    width: 100%;
-    margin-left: 110px;
-  }
-  .pic7 {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
- }
-  .section7 {
-    top: 2400px;
-    width: 80%;
-    margin-left: 0;
-  }
-  .pic8 {
-    width: 100%;
-    margin-left: 0;
-  }
-  .text6 {
-    width: 90%;
-    margin-left: 12%;
+  h6 {
+    font-size: 51px;
+    margin: 0;
+    padding: 0;
   }
 }
 @media only screen and (max-width: 504px) {
-  h1 {
-    font-size: 38px;
-  }
-  .pic1 {
-    width: 100%;
-  }
-  .header {
-    margin-bottom: 90px;
-    width: 100%;
-  }
-  .titleAuthor {
-    padding: 17px;
-    top: 330px;
-    left: 0px;
-    width: 100%;
-  }
-  .byline {
-    bottom: 0px;
-    top: 110px;
-    left: 0%;
-    right: 0px;
-    width: 100%;
-  }
-  h2 {
-    line-height: .5;
-  }
-  .introSection {
-    width: 100%;
-    margin: 0px auto;
-    margin-top: 250px;
-    }
-  .introText {
-    width: 80%;
-    margin-left: 30px;
-    margin-right: auto;
-    margin-bottom: 30px;
-  }
-  h3 {
-    font-size: 20px;
-  }
-  .pic2 {
-    width: 100%;
-    margin-left: 0px;
-  }
-  .section2 {
-    top: 70px;
-    width: 100%;
-  }
-  .pic3 {
-    width: 100%;
-    height: 400px;
-  }
-  .text1 {
-    width: 80%;
-    margin-top: 35px;
-    margin-left:auto;
-    margin-right: auto;
-  }
-  .number1 {
-    top: 640px;
-    left: 25px;
-  }
-  .section3 {
-    margin-top: 157%;
-    width: 100%;
-  }
-  .pic4 {
-    width: 100%;
-    margin-top: 110px;
-    margin-right: 0px;
-  }
-  .number2 {
-    right: 43%;
-    top: 702px;
-    left: 40px;
-    bottom: 0px;
-  }
-  .text2 {
-    width: 80%;
-    margin-top: 790px;
-    margin-left: auto;
-  }
-  .section4 {
-    top: 640px;
-    width: 100%;
-    margin-left:auto;
-    margin-right:auto;
-  }
-  .pic5 {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 230px;
-  }
-  .number3 {
-    top: 1470px;
-    right: 30px;
-  }
-  .text3 {
-    width:80%;
-    top: 1630px;
-    left: 10%;
-    margin-left:auto;
-    margin-right:auto;
-  }
-  .section5 {
-    top: 1100px;
-    width: 100%;
-  }
-  .pic6 {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .number4 {
-    left: 75%;
-    top: 215%;
-  }
-  .text4 {
-    top: 238%;
-    left: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-  }
-  .section6 {
-    top: 2600px;
-    width: 100%;
-  }
-  .number5 {
-    margin-top: 37%;
-    top: 380%;
-    left: 5%;
-    height: 100px;
-  }
-  .text5 {
-    top: 370px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    left: 10%;
-  }
-  .pic7 {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
- }
-  .section7 {
-    top: 2550px;
-    width: 100%;
-    margin-left: 0;
-  }
-  .pic8 {
-    width: 100%;
-    margin-left: 0;
-  }
-  .text6 {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    left: 10%;
-  }
+
 }
