@@ -201,6 +201,10 @@ p {
     top: 100px;
     padding: 20px;
   }
+  .introSection, .section2, .section3, .section4, .section5, .section6, .section7 {
+    width: 100%;
+    margin: 0 0 100px 0;
+  }
 }
 @media only screen and (max-width: 768px) {
   .byline {
@@ -225,6 +229,9 @@ p {
   .introSection, .section2, .section4, .section5, .section6, .section7 {
     width: 60%;
     margin-left: 20%;
+  }
+  .section3 {
+    margin-bottom: 0px;
   }
   .introText {
     width: 100%;
@@ -345,6 +352,9 @@ p {
     width: 100%;
     margin-left: 0px;
     margin-bottom: 80px;
+  }
+  .section3, .section5 {
+    margin-bottom: 0px;
   }
   .introText, .text3, .text5 {
     width: 90%;
