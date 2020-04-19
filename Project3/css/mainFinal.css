@@ -327,5 +327,81 @@ p {
   }
 }
 @media only screen and (max-width: 504px) {
-
+  .byline {
+    right: 50px;
+  }
+  .titleAuthor {
+    width: 100%;
+    padding: 10px;
+    top: 390px;
+    left: 0%;
+    right: auto;
+  }
+  .pic1 {
+    width: 100%;
+    height: 350px;
+  }
+  .introSection, .section2, .section3, .section4, .section5, .section6, .section7 {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 80px;
+  }
+  .introText, .text3, .text5 {
+    width: 90%;
+    margin: 150px 0 50px 30px;
+  }
+  .pic2 {
+    width: 100%;
+    margin-left: 0;
+  }
+  .pic3 {
+    width: 100%;
+    margin-left: 0;
+  }
+  .text1, .text2, .text3, .text4, .text5, .text6 {
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 10%;
+  }
+  .number1 {
+    top: 425px;
+    left: 80%;
+  }
+  h5 {
+    font-size: 51px;
+  }
+  .pic4 {
+    width: 100%;
+  }
+  .number2 {
+    top: 210px;
+  }
+  h6 {
+    font-size: 51px;
+    margin: 0;
+    padding: 0;
+  }
+  .pic5 {
+    width: 100%;
+  }
+  .number3 {
+    top: 425px;
+    left: 420px;
+  }
+  .number4 {
+    top: 205px;
+    left: 420px;
+  }
+  .pic7 {
+    width: 100%;
+    left: 0%;
+  }
+  .number5 {
+    top: 255px;
+    left: 30px;
+  }
+  .pic8 {
+    width: 100%;
+    margin-left: 0%;
+  }
 }
