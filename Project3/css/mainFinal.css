@@ -314,6 +314,17 @@ p {
     left: 30px;
     padding: 75px 10px 0 10px;
   }
+  .section7 {
+    width: 100%;
+  }
+  .pic8 {
+    width: 90%;
+    margin-left: -30%;
+  }
+  .text6 {
+    margin-left: 2%;
+    width: 60%;
+  }
 }
 @media only screen and (max-width: 504px) {
 
