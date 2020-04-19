@@ -271,6 +271,49 @@ p {
     margin: 0;
     padding: 0;
   }
+  .text3 {
+    width: 100%;
+    margin-left: 6%;
+  }
+  .pic5 {
+    width: 100%;
+  }
+  .number3 {
+    top: 380px;
+    left: 360px;
+    padding: 75px 10px 0 10px;
+  }
+  .pic6 {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .number4 {
+    top: 174px;
+    left: 30px;
+    padding: 75px 10px 0 10px;
+  }
+  .text4 {
+    width: 100%;
+    margin: 30px 0 0 28px;
+  }
+  .text5 {
+    margin-top: 30px;
+    width: 60%;
+    margin-left: 180px;
+  }
+  .section6 {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .pic7 {
+    width: 70%;
+    left: 30%;
+  }
+  .number5 {
+    top: 275px;
+    left: 30px;
+    padding: 75px 10px 0 10px;
+  }
 }
 @media only screen and (max-width: 504px) {
 
