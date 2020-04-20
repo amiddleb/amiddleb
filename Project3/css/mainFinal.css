@@ -131,14 +131,20 @@ img {
 }
 /* greenshapes */
 .greenShape {
-  background-color: #A2961B;
-  height: 800px;
+  background-color: #D1C971;
+  height: 1300px;
   width: 300px;
+  position: absolute;
+  right: 120%;
+  top: 45%;
 }
 .greenShape2 {
-  background-color: #A2961B;
-  height: 800px;
-  width: 82px;
+  background-color: #D1C971;
+  height: 1200px;
+  width: 78px;
+  position: absolute;
+  top: -10%;
+  left: 212%;
 }
 /* text elements */
 h1 {
@@ -207,6 +213,10 @@ p {
   }
 }
 @media only screen and (max-width: 768px) {
+  .greenShape2 {
+    height: 1200px;
+    left: 110%;
+  }
   .byline {
     bottom: 0px;
     top: 50px;
@@ -334,6 +344,10 @@ p {
   }
 }
 @media only screen and (max-width: 504px) {
+  .greenShape2 {
+    height: 0px;
+    left: 0%;
+  }
   .byline {
     right: 50px;
   }
@@ -347,6 +361,8 @@ p {
   .pic1 {
     width: 100%;
     height: 350px;
+    border-style: solid;
+    border-color: #D1C971;
   }
   .introSection, .section2, .section3, .section4, .section5, .section6, .section7 {
     width: 100%;
@@ -363,10 +379,14 @@ p {
   .pic2 {
     width: 100%;
     margin-left: 0;
+    border-style: solid;
+    border-color: #D1C971;
   }
   .pic3 {
     width: 100%;
     margin-left: 0;
+    border-style: solid;
+    border-color: #D1C971;
   }
   .text1, .text2, .text3, .text4, .text5, .text6 {
     width: 90%;
@@ -382,6 +402,8 @@ p {
   }
   .pic4 {
     width: 100%;
+    border-style: solid;
+    border-color: #D1C971;
   }
   .number2 {
     top: 210px;
@@ -393,6 +415,8 @@ p {
   }
   .pic5 {
     width: 100%;
+    border-style: solid;
+    border-color: #D1C971;
   }
   .number3 {
     top: 425px;
@@ -402,9 +426,15 @@ p {
     top: 205px;
     left: 420px;
   }
+  .pic6 {
+    border-style: solid;
+    border-color: #D1C971;
+  }
   .pic7 {
     width: 100%;
     left: 0%;
+    border-style: solid;
+    border-color: #D1C971;
   }
   .number5 {
     top: 255px;
@@ -413,5 +443,7 @@ p {
   .pic8 {
     width: 100%;
     margin-left: 0%;
+    border-style: solid;
+    border-color: #D1C971;
   }
 }
