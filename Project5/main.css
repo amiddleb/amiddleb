@@ -121,14 +121,22 @@ body {
 .tail {
   background-color: #9A836D;
   position: absolute;
+  width: 20px;
+  height: 10px;
 }
 .dogbody {
   background-color: #9A836D;
   position: absolute;
+  width: 100px;
+  height: 60px;
+  top: 74%;
+  left: 60%;
 }
 .doghead {
   background-color: #9A836D;
   position: absolute;
+  width: 70px;
+  height: 60px;
 }
 .paw {
   background-color: #9A836D;
