@@ -119,13 +119,15 @@ body {
   left: 26.5%;
 }
 .tail {
-  background-color: #9A836D;
+  background-color: yellow;
   position: absolute;
-  width: 20px;
-  height: 10px;
+  width: 40px;
+  height: 20px;
+  bottom: 16%;
+  left: 66.5%;
 }
 .dogbody {
-  background-color: #9A836D;
+  background-color: blue;
   position: absolute;
   width: 100px;
   height: 60px;
@@ -133,21 +135,36 @@ body {
   left: 60%;
 }
 .doghead {
-  background-color: #9A836D;
+  background-color: purple;
   position: absolute;
   width: 70px;
-  height: 60px;
+  height: 68px;
+  bottom: 16%;
+  left: 55%;
 }
 .paw {
-  background-color: #9A836D;
+  background-color: red;
   position: absolute;
+  width: 30px;
+  height: 25px;
+  bottom: 15%;
+  left: 53%;
 }
 .arm {
-  background-color: #9A836D;
+  background-color: orange;
   position: absolute;
+  width: 70px;
+  height: 25px;
+  bottom: 15%;
+  left: 55%;
 }
 .mouth {
   position: absolute;
+  background-color: grey;
+  width: 40px;
+  height: 50px;
+  bottom: 16%;
+  left: 53%;
 }
 .nose {
   position: absolute;
@@ -159,26 +176,26 @@ body {
   position: absolute;
 }
 .earbase {
-  background-color: #9A836D;
+  background-color: black;
   position: absolute;
 }
 .earbase2 {
-  background-color: #9A836D;
+  background-color: green;
   position: absolute;
 }
 .eartip {
-  background-color: #9A836D;
+  background-color: pink;
   position: absolute;
 }
 .eartip2 {
-  background-color: #9A836D;
+  background-color: white;
   position: absolute;
 }
 .thigh {
-  background-color: #9A836D;
+  background-color: lime;
   position: absolute;
 }
 .leg {
-  background-color: #9A836D;
+  background-color: violet;
   position: absolute;
 }
