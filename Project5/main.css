@@ -119,15 +119,15 @@ body {
   left: 26.5%;
 }
 .tail {
-  background-color: yellow;
+  background-color: #AD9F91;
   position: absolute;
   width: 40px;
-  height: 20px;
+  height: 15px;
   bottom: 16%;
   left: 66.5%;
 }
 .dogbody {
-  background-color: blue;
+  background-color: #AD9F91;
   position: absolute;
   width: 100px;
   height: 62px;
@@ -135,7 +135,7 @@ body {
   left: 60%;
 }
 .doghead {
-  background-color: purple;
+  background-color: #AD9F91;
   position: absolute;
   width: 70px;
   height: 70px;
@@ -143,7 +143,7 @@ body {
   left: 55%;
 }
 .paw {
-  background-color: red;
+  background-color: #AD9F91;
   position: absolute;
   width: 30px;
   height: 22px;
@@ -151,7 +151,7 @@ body {
   left: 54%;
 }
 .arm {
-  background-color: orange;
+  background-color: #A6988A;
   position: absolute;
   width: 76px;
   height: 22px;
@@ -160,7 +160,7 @@ body {
 }
 .mouth {
   position: absolute;
-  background-color: grey;
+  background-color: #A6988A;
   width: 36px;
   height: 34px;
   bottom: 18.5%;
@@ -169,46 +169,46 @@ body {
 .nose {
   position: absolute;
   background-color: black;
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   bottom: 22.25%;
   left: 53.25%;
-  border-radius: 7px;
+  border-radius: 3px;
 }
 .eye {
   position: absolute;
   background-color: black;
-  width: 14px;
-  height: 7px;
+  width: 12px;
+  height: 5px;
   bottom: 24.75%;
   left: 55%;
 }
 .eye2 {
   position: absolute;
   background-color: black;
-  width: 14px;
-  height: 7px;
+  width: 12px;
+  height: 5px;
   bottom: 24.75%;
   left: 56.5%;
 }
 .earbase {
-  background-color: grey;
+  background-color: #A6988A;
   position: absolute;
-  width: 14px;
+  width: 14.25px;
   height: 14px;
   bottom: 27.5%;
   left: 56%;
 }
 .earbase2 {
-  background-color: grey;
+  background-color: #A6988A;
   position: absolute;
-  width: 14px;
+  width: 14.25px;
   height: 14px;
   bottom: 27.5%;
   left: 59.35%;
 }
 .eartip {
-  background-color: grey;
+  background-color: #A6988A;
   position: absolute;
   width: 21px;
   height: 14px;
@@ -216,7 +216,7 @@ body {
   left: 55.5%;
 }
 .eartip2 {
-  background-color: grey;
+  background-color: #A6988A;
   position: absolute;
   width: 19px;
   height: 14px;
@@ -224,10 +224,26 @@ body {
   left: 59%;
 }
 .thigh {
-  background-color: lime;
+  background-color: #A6988A;
   position: absolute;
+  width: 50px;
+  height: 42px;
+  top: 78%;
+  left: 64%;
 }
 .leg {
-  background-color: violet;
+  background-color: #A6988A;
   position: absolute;
+  width: 76px;
+  height: 22px;
+  bottom: 15%;
+  left: 62%;
+}
+.window {
+  position: absolute;
+  background-color: skyblue;
+  width: 400px;
+  height: 420px;
+  right: 0%;
+  top: 10%;
 }
