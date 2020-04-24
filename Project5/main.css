@@ -130,7 +130,7 @@ body {
   background-color: blue;
   position: absolute;
   width: 100px;
-  height: 60px;
+  height: 62px;
   top: 74%;
   left: 60%;
 }
@@ -138,7 +138,7 @@ body {
   background-color: purple;
   position: absolute;
   width: 70px;
-  height: 68px;
+  height: 70px;
   bottom: 16%;
   left: 55%;
 }
@@ -146,50 +146,82 @@ body {
   background-color: red;
   position: absolute;
   width: 30px;
-  height: 25px;
+  height: 22px;
   bottom: 15%;
-  left: 53%;
+  left: 54%;
 }
 .arm {
   background-color: orange;
   position: absolute;
-  width: 70px;
-  height: 25px;
+  width: 76px;
+  height: 22px;
   bottom: 15%;
   left: 55%;
 }
 .mouth {
   position: absolute;
   background-color: grey;
-  width: 40px;
-  height: 50px;
-  bottom: 16%;
-  left: 53%;
+  width: 36px;
+  height: 34px;
+  bottom: 18.5%;
+  left: 53.5%;
 }
 .nose {
   position: absolute;
+  background-color: black;
+  width: 14px;
+  height: 14px;
+  bottom: 22.25%;
+  left: 53.25%;
+  border-radius: 7px;
 }
 .eye {
   position: absolute;
+  background-color: black;
+  width: 14px;
+  height: 7px;
+  bottom: 24.75%;
+  left: 55%;
 }
 .eye2 {
   position: absolute;
+  background-color: black;
+  width: 14px;
+  height: 7px;
+  bottom: 24.75%;
+  left: 56.5%;
 }
 .earbase {
-  background-color: black;
+  background-color: grey;
   position: absolute;
+  width: 14px;
+  height: 14px;
+  bottom: 27.5%;
+  left: 56%;
 }
 .earbase2 {
-  background-color: green;
+  background-color: grey;
   position: absolute;
+  width: 14px;
+  height: 14px;
+  bottom: 27.5%;
+  left: 59.35%;
 }
 .eartip {
-  background-color: pink;
+  background-color: grey;
   position: absolute;
+  width: 21px;
+  height: 14px;
+  bottom: 29%;
+  left: 55.5%;
 }
 .eartip2 {
-  background-color: white;
+  background-color: grey;
   position: absolute;
+  width: 19px;
+  height: 14px;
+  bottom: 29%;
+  left: 59%;
 }
 .thigh {
   background-color: lime;
