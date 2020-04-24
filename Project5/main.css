@@ -20,6 +20,7 @@ body {
   top: 50%;
   left: 5%;
   background-color: #BD6919;
+  border-radius: 5px;
 }
 .smalldrawer, .smalldrawer2, .smalldrawer3 {
   position: absolute;
@@ -125,6 +126,7 @@ body {
   height: 15px;
   bottom: 14%;
   left: 66.5%;
+  border-radius: 5px;
 }
 .dogbody {
   background-color: #AD9F91;
@@ -133,6 +135,7 @@ body {
   height: 62px;
   top: 76%;
   left: 60%;
+  border-radius: 5px;
 }
 .doghead {
   background-color: #AD9F91;
@@ -141,6 +144,7 @@ body {
   height: 70px;
   bottom: 14%;
   left: 55%;
+  border-radius: 5px;
 }
 .paw {
   background-color: #AD9F91;
@@ -149,6 +153,7 @@ body {
   height: 22px;
   bottom: 13%;
   left: 54%;
+  border-radius: 5px;
 }
 .arm {
   background-color: #A6988A;
@@ -157,6 +162,7 @@ body {
   height: 22px;
   bottom: 13%;
   left: 55%;
+  border-radius: 5px;
 }
 .mouth {
   position: absolute;
@@ -165,6 +171,7 @@ body {
   height: 34px;
   bottom: 16.5%;
   left: 53.5%;
+  border-radius: 5px;
 }
 .nose {
   position: absolute;
@@ -195,32 +202,16 @@ body {
   background-color: #A6988A;
   position: absolute;
   width: 14.25px;
-  height: 14px;
+  height: 20px;
   bottom: 25.5%;
-  left: 56%;
+  left: 56.5%;
 }
 .earbase2 {
   background-color: #A6988A;
   position: absolute;
   width: 14.25px;
-  height: 14px;
+  height: 20px;
   bottom: 25.5%;
-  left: 59.35%;
-}
-.eartip {
-  background-color: #A6988A;
-  position: absolute;
-  width: 21px;
-  height: 14px;
-  bottom: 27%;
-  left: 55.5%;
-}
-.eartip2 {
-  background-color: #A6988A;
-  position: absolute;
-  width: 19px;
-  height: 14px;
-  bottom: 27%;
   left: 59%;
 }
 .thigh {
@@ -230,6 +221,7 @@ body {
   height: 42px;
   top: 80%;
   left: 64%;
+  border-radius: 5px;
 }
 .leg {
   background-color: #A6988A;
@@ -238,12 +230,13 @@ body {
   height: 22px;
   bottom: 13%;
   left: 62%;
+  border-radius: 5px;
 }
 .window {
   position: absolute;
   background-color: #D6FAF7;
   width: 400px;
-  height: 420px;
+  height: 220px;
   right: 0%;
   top: 10%;
 }
@@ -253,7 +246,7 @@ body {
   width: 415px;
   height: 20px;
   right: 0%;
-  bottom: 18%;
+  top: 45%;
 }
 .rod {
   position: absolute;
@@ -267,7 +260,17 @@ body {
   position: absolute;
   background-color: #8B3534;
   width: 40px;
-  height: 419px;
+  height: 365px;
   right: 29.5%;
-  bottom: 21%;
+  bottom: 30%;
+  border-radius: 5px;
+}
+.sun {
+  position: absolute;
+  background-color: yellow;
+  width: 130px;
+  height: 130px;
+  right: 0%;
+  top: 15%;
+  border-radius: 50%;
 }
