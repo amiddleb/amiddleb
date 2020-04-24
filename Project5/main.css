@@ -14,43 +14,163 @@ body {
   float: left;
 }
 .deskbody {
-  width: 310px;
-  height: 140px;
+  width: 315px;
+  height: 145px;
   position: absolute;
   top: 50%;
   left: 5%;
-  background-color: brown;
+  background-color: #BD6919;
 }
 .smalldrawer, .smalldrawer2, .smalldrawer3 {
   position: absolute;
-  background-color: grey;
+  background-color: #BD6919;
+  border-style: solid;
+  border-color: #502802;
   width: 80px;
   height: 38px;
+  left: 5.5%;
 }
 .smalldrawer {
   top: 51%;
-  left: 5.5%;
 }
 .smalldrawer2 {
   top: 58.5%;
-  left: 5.5%;
 }
 .smalldrawer3 {
   top: 66%;
-  left: 5.5%;
+}
+.largedrawer, .largedrawer2, .largedrawer3 {
+  position: absolute;
+  background-color: #BD6919;
+  border-style: solid;
+  border-color: #502802;
+  width: 210px;
+  height: 38px;
+  left: 12.15%;
 }
 .largedrawer {
-
+  top: 51%;
+}
+.largedrawer2 {
+  top: 58.5%;
+}
+.largedrawer3 {
+  top: 66%;
+}
+.smallhandle, .smallhandle2, .smallhandle3 {
+  position: absolute;
+  background-color: #502802;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  left: 8.35%;
 }
 .smallhandle {
-
+  top: 53.75%;
+}
+.smallhandle2 {
+  top: 61.25%;
+}
+.smallhandle3 {
+  top: 68.75%;
+}
+.largehandle, .largehandle2, .largehandle3 {
+  position: absolute;
+  background-color: #AE810B;
+  width: 209px;
+  height: 5px;
+  left: 12.4%;
 }
 .largehandle {
-
+  top: 54%;
+}
+.largehandle2 {
+  top: 61.5%;
+}
+.largehandle3 {
+  top: 69%;
+}
+.frontleg, .frontleg2 {
+  position: absolute;
+  background-color: #502802;
+  width: 10px;
+  height: 45px;
+  border-radius: 10%;
+  top: 74%;
 }
 .frontleg {
-
+  left: 7%;
+}
+.frontleg2 {
+  left: 26.75%;
+}
+.backleg, .backleg2 {
+  position: absolute;
+  background-color: #502802;
+  width: 10px;
+  height: 35.5px;
+  border-radius: 10%;
+  top: 74%;
 }
 .backleg {
-
+  left: 7.25%;
+}
+.backleg2 {
+  left: 26.5%;
+}
+.tail {
+  background-color: #9A836D;
+  position: absolute;
+}
+.dogbody {
+  background-color: #9A836D;
+  position: absolute;
+}
+.doghead {
+  background-color: #9A836D;
+  position: absolute;
+}
+.paw {
+  background-color: #9A836D;
+  position: absolute;
+}
+.arm {
+  background-color: #9A836D;
+  position: absolute;
+}
+.mouth {
+  position: absolute;
+}
+.nose {
+  position: absolute;
+}
+.eye {
+  position: absolute;
+}
+.eye2 {
+  position: absolute;
+}
+.earbase {
+  background-color: #9A836D;
+  position: absolute;
+}
+.earbase2 {
+  background-color: #9A836D;
+  position: absolute;
+}
+.eartip {
+  background-color: #9A836D;
+  position: absolute;
+}
+.eartip2 {
+  background-color: #9A836D;
+  position: absolute;
+}
+.thigh {
+  background-color: #9A836D;
+  position: absolute;
+}
+.leg {
+  background-color: #9A836D;
+  position: absolute;
 }
