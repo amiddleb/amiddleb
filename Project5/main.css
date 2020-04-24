@@ -25,19 +25,19 @@ body {
   position: absolute;
   background-color: grey;
   width: 80px;
-  height: 40px;
+  height: 38px;
 }
 .smalldrawer {
-  top: 52%;
-  left: 6%;
+  top: 51%;
+  left: 5.5%;
 }
 .smalldrawer2 {
-  top: 62%;
-  left: 6%;
+  top: 58.5%;
+  left: 5.5%;
 }
 .smalldrawer3 {
-  top: 72%;
-  left: 6%;
+  top: 66%;
+  left: 5.5%;
 }
 .largedrawer {
 
