@@ -332,19 +332,37 @@ p {
 .seye2 {
   top: 68.75%;
 }
+.snose {
+  background-color: black;
+  position: absolute;
+  width: 10px;
+  height: 12px;
+  border-radius: 50%;
+  left: 25%;
+  top: 67%;
+}
+.smouth {
+  background-color: black;
+  position: absolute;
+  border-radius: 50%;
+  width: 6px;
+  height: 7px;
+  left: 26.25%;
+  top: 68%;
+}
 .sleg, .sleg2, .sleg3, .sleg4 {
   position: absolute;
   background-color: #291906;
 }
 .sleg, .sleg2 {
   width: 10px;
-  height: 30px;
-  top: 82%;
+  height: 40px;
+  top: 80%;
 }
 .sleg3, .sleg4 {
   width: 8px;
-  height: 25px;
-  top: 82%;
+  height: 35px;
+  top: 80%;
 }
 .sleg {
   left: 15.5%;
