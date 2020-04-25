@@ -421,3 +421,21 @@ p {
   position: absolute;
   border-radius: 5px;
 }
+.shattop {
+  position: absolute;
+  width: 25px;
+  height: 40px;
+  top: 65%;
+  left: 20.5%;
+  background-color: pink;
+  border-radius: 5px;
+}
+.sbrim {
+  position: absolute;
+  top: 64.65%;
+  left: 22%;
+  background-color: pink;
+  width: 15px;
+  height: 45px;
+  border-radius: 50%;
+}
