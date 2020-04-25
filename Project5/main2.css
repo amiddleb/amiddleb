@@ -32,20 +32,20 @@ body {
 }
 .eye {
   position: absolute;
-  background-color: #3483AB;
-  width: 12px;
+  background-color: #472903;
+  width: 10px;
   height: 10px;
   border-radius: 50%;
-  top: 35.5%;
+  top: 35.75%;
   left: 45%;
 }
 .eye2 {
   position: absolute;
-  background-color: #3483AB;
-  width: 12px;
+  background-color: #472903;
+  width: 10px;
   height: 10px;
   border-radius: 50%;
-  top: 35.5%;
+  top: 35.75%;
   left: 48%;
 }
 .nose {
@@ -73,6 +73,23 @@ body {
   height: 80px;
   top: 41%;
   left: 42%;
+}
+.text {
+  position: absolute;
+  top: 42%;
+  left: 48.75%;
+}
+p {
+  font-size: 12px;
+  font-family: cursive;
+}
+.spine {
+  position: absolute;
+  background-color: #F9E6CE;
+  width: 3px;
+  height: 80px;
+  top: 41%;
+  left: 47.25%;
 }
 .peg {
   position: absolute;
@@ -105,8 +122,10 @@ body {
   width: 222px;
   height: 50px;
   top: 80%;
-  left: 39%;
+  left: 38.5%;
   border-radius: 50%;
+  border-style: dotted;
+  border-color: #95630F;
 }
 .pleg {
   position: absolute;
