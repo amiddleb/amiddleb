@@ -38,6 +38,14 @@ body {
   border-radius: 50%;
   top: 35.75%;
   left: 45%;
+  animation-name: eye;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes eye {
+0% {left: 45%;}
+50% {left: 44.75%;}
+100% {left: 45%;}
 }
 .eye2 {
   position: absolute;
@@ -47,6 +55,14 @@ body {
   border-radius: 50%;
   top: 35.75%;
   left: 48%;
+  animation-name: eye2;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes eye2 {
+0% {left: 48%;}
+50% {left: 47.75%;}
+100% {left: 48%;}
 }
 .nose {
   position: absolute;
@@ -210,4 +226,56 @@ p {
   height: 85px;
   top: 72%;
   left: 51.5%;
+}
+.circle, .circle2, .circle3, .circle4, .circle5, .circle6, .circle7, .circle8, .circle9 {
+  position: absolute;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.circle {
+  top: 69%;
+  left: 20%;
+}
+.circle2 {
+  top: 69%;
+  left: 20%;
+}
+.circle3 {
+  top: 69%;
+  left: 20%;
+}
+.circle4 {
+  top: 69%;
+  left: 20%;
+}
+.circle5 {
+  top: 69%;
+  left: 20%;
+}
+.circle6 {
+  top: 69%;
+  left: 20%;
+}
+.circle7 {
+  top: 69%;
+  left: 20%;
+}
+.circle8 {
+  top: 69%;
+  left: 20%;
+}
+.circle9 {
+  top: 69%;
+  left: 20%;
+}
+.shead {
+  background-color: #291906;
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  border-radius: 50%;
+  top: 65%;
+  left: 22%;
 }
