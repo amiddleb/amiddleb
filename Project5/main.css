@@ -119,7 +119,7 @@ body {
 .backleg2 {
   left: 26.5%;
 }
-.tail {
+/* .tail {
   background-color: #AD9F91;
   position: absolute;
   width: 40px;
@@ -127,8 +127,8 @@ body {
   bottom: 14%;
   left: 66.5%;
   border-radius: 5px;
-}
-.dogbody {
+} */
+/* .dogbody {
   background-color: #AD9F91;
   position: absolute;
   width: 100px;
@@ -136,8 +136,8 @@ body {
   top: 76%;
   left: 60%;
   border-radius: 5px;
-}
-.doghead {
+} */
+/* .doghead {
   background-color: #AD9F91;
   position: absolute;
   width: 70px;
@@ -145,8 +145,8 @@ body {
   bottom: 14%;
   left: 55%;
   border-radius: 5px;
-}
-.paw {
+} */
+/* .paw {
   background-color: #AD9F91;
   position: absolute;
   width: 30px;
@@ -154,8 +154,8 @@ body {
   bottom: 13%;
   left: 54%;
   border-radius: 5px;
-}
-.arm {
+} */
+/* .arm {
   background-color: #A6988A;
   position: absolute;
   width: 76px;
@@ -163,8 +163,8 @@ body {
   bottom: 13%;
   left: 55%;
   border-radius: 5px;
-}
-.mouth {
+} */
+/* .mouth {
   position: absolute;
   background-color: #A6988A;
   width: 36px;
@@ -172,8 +172,8 @@ body {
   bottom: 16.5%;
   left: 53.5%;
   border-radius: 5px;
-}
-.nose {
+} */
+/* .nose {
   position: absolute;
   background-color: black;
   width: 12px;
@@ -181,40 +181,40 @@ body {
   bottom: 20.25%;
   left: 53.25%;
   border-radius: 3px;
-}
-.eye {
+} */
+/* .eye {
   position: absolute;
   background-color: black;
   width: 12px;
   height: 5px;
   bottom: 22.75%;
   left: 55%;
-}
-.eye2 {
+} */
+/* .eye2 {
   position: absolute;
   background-color: black;
   width: 12px;
   height: 5px;
   bottom: 22.75%;
   left: 56.5%;
-}
-.earbase {
+} */
+/* .earbase {
   background-color: #A6988A;
   position: absolute;
   width: 14.25px;
   height: 20px;
   bottom: 25.5%;
   left: 56.5%;
-}
-.earbase2 {
+} */
+/* .earbase2 {
   background-color: #A6988A;
   position: absolute;
   width: 14.25px;
   height: 20px;
   bottom: 25.5%;
   left: 59%;
-}
-.thigh {
+} */
+/* .thigh {
   background-color: #A6988A;
   position: absolute;
   width: 50px;
@@ -222,8 +222,8 @@ body {
   top: 80%;
   left: 64%;
   border-radius: 5px;
-}
-.leg {
+} */
+/* .leg {
   background-color: #A6988A;
   position: absolute;
   width: 76px;
@@ -231,7 +231,7 @@ body {
   bottom: 13%;
   left: 62%;
   border-radius: 5px;
-}
+} */
 .window {
   position: absolute;
   background-color: #D6FAF7;

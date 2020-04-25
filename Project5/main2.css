@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 90%;
+  height: 600px;
+  position: relative;
+  margin-top: 5%;
+  margin-left: 5%;
+  background-color: #FDEFE5;
+  border-style: solid;
+  border-width: thick;
+  border-color: #E2C6B1;
+}
+.hair {
+  position: absolute;
+  background-color: #6D2A06;
+  width: 145px;
+  height: 140px;
+  border-radius: 50%;
+  top: 25%;
+  left: 41.85%;
+}
+.face {
+  position: absolute;
+  background-color: #F0CD9F;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  top: 27%;
+  left: 43.15%;
+}
+.eye {
+  position: absolute;
+  background-color: #3483AB;
+  width: 12px;
+  height: 10px;
+  border-radius: 50%;
+  top: 35.5%;
+  left: 45%;
+}
+.eye2 {
+  position: absolute;
+  background-color: #3483AB;
+  width: 12px;
+  height: 10px;
+  border-radius: 50%;
+  top: 35.5%;
+  left: 48%;
+}
+.nose {
+  position: absolute;
+  background-color: #DEBA8B;
+  width: 12px;
+  height: 15px;
+  border-radius: 50%;
+  top: 38%;
+  left: 46.45%;
+}
+.bangs {
+  position: absolute;
+  background-color: #6D2A06;
+  width: 73px;
+  height: 45px;
+  border-radius: 5px;
+  top: 27%;
+  left: 44.5%;
+}
+.music {
+  position: absolute;
+  background-color: #FBF6F0;
+  width: 140px;
+  height: 80px;
+  top: 41%;
+  left: 42%;
+}
+.peg {
+  position: absolute;
+  background-color: black;
+  width: 10px;
+  height: 45px;
+  top: 48%;
+  left: 44%;
+}
+.peg2 {
+  position: absolute;
+  background-color: black;
+  width: 10px;
+  height: 45px;
+  top: 48%;
+  left: 50.25%;
+}
+.pbody {
+  position: absolute;
+  background-color: black;
+  width: 350px;
+  height: 75px;
+  top: 52%;
+  left: 34%;
+  border-radius: 5px;
+}
+.pleg {
+  position: absolute;
+  background-color: black;
+  width: 30px;
+  height: 100px;
+  top: 64%;
+  left: 36%;
+}
+.pleg2 {
+  position: absolute;
+  background-color: black;
+  width: 30px;
+  height: 100px;
+  top: 64%;
+  left: 56.5%;
+}
+.skirt {
+
+}
+.leg {
+
+}
+.leg2 {
+
+}
+.shoe {
+
+}
+.shoe2 {
+
+}
+.skirttop {
+
+}
+.chairleg {
+
+}
+.chairleg2 {
+
+}
