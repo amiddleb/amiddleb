@@ -161,7 +161,7 @@ p {
 }
 .skirt {
   position: absolute;
-  background-color: #751F4E;
+  background-color: #621941;
   width: 150px;
   height: 45px;
   top: 65%;
@@ -170,7 +170,7 @@ p {
 }
 .skirttop {
   position: absolute;
-  background-color: #AB3B78;
+  background-color: #751F4E;
   width: 150px;
   height: 23px;
   top: 64.5%;
