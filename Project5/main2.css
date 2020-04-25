@@ -9,9 +9,9 @@ body {
   margin-top: 5%;
   margin-left: 5%;
   background-color: #FDEFE5;
-  border-style: dashed;
-  border-width: medium;
-  border-color: #9E7A09;
+  border-style: solid;
+  border-width: thick;
+  border-color: #D05628;
 }
 .hair {
   position: absolute;
