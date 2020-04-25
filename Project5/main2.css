@@ -361,9 +361,9 @@ p {
 .mstand {
   background-color: #6D6F7C;
   width: 7px;
-  height: 95px;
+  height: 100px;
   position: absolute;
-  top: 71%;
+  top: 68%;
   left: 29.25%;
 }
 .mphone {
@@ -372,7 +372,7 @@ p {
   height: 20px;
   position: absolute;
   border-radius: 50%;
-  top: 69.5%;
+  top: 67.5%;
   left: 27.75%;
 }
 .mbase {
