@@ -359,10 +359,28 @@ p {
   left: 21.5%;
 }
 .mstand {
-  background-color: black;
-  width: 10px;
-  height: 70px;
+  background-color: #6D6F7C;
+  width: 7px;
+  height: 95px;
   position: absolute;
-  top: 75%;
-  left: 29%;
+  top: 71%;
+  left: 29.25%;
+}
+.mphone {
+  background-color: #242747;
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  top: 69.5%;
+  left: 27.75%;
+}
+.mbase {
+  background-color: #6D6F7C;
+  top: 83%;
+  left: 28%;
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  border-radius: 5px;
 }
