@@ -424,17 +424,17 @@ p {
 .shattop {
   position: absolute;
   width: 25px;
-  height: 40px;
-  top: 65%;
+  height: 37px;
+  top: 65.25%;
   left: 20.5%;
-  background-color: pink;
+  background-color: #17D7DD;
   border-radius: 5px;
 }
 .sbrim {
   position: absolute;
   top: 64.65%;
   left: 22%;
-  background-color: pink;
+  background-color: #17D7DD;
   width: 15px;
   height: 45px;
   border-radius: 50%;
