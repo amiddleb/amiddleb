@@ -9,8 +9,8 @@ body {
   margin-top: 5%;
   margin-left: 5%;
   background-color: #FDEFE5;
-  border-style: solid;
-  border-width: thick;
+  border-style: dashed;
+  border-width: medium;
   border-color: #9E7A09;
 }
 .hair {
@@ -361,13 +361,24 @@ p {
   top: 67%;
 }
 .smouth {
-  background-color: black;
+  background-color: #C26B88;
   position: absolute;
   border-radius: 50%;
   width: 6px;
   height: 7px;
   left: 26.25%;
   top: 68%;
+  animation-name: smouth;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+  @keyframes smouth {
+  0% {width: 6px;
+      height: 7px;}
+  50% {width: 8px;
+      height: 9px;}
+  100% {width: 6px;
+      height: 7px;}
 }
 .sleg, .sleg2, .sleg3, .sleg4 {
   position: absolute;
@@ -408,7 +419,7 @@ p {
   width: 30px;
   height: 20px;
   position: absolute;
-  border-radius: 50%;
+  border-radius: 20px;
   top: 67.5%;
   left: 27.75%;
 }
