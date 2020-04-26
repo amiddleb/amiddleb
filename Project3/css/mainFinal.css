@@ -72,10 +72,14 @@ img {
   margin: 0 0 0 10%;
 }
 /* pic divs */
-.pic2 {
+.pic2bigsizes {
   width: calc(40% - 10px);
   float: left;
   position: relative;
+  display: block;
+}
+.pic2smallsizes {
+  display: none;
 }
 .pic3 {
   width: calc(60%);
@@ -91,10 +95,22 @@ img {
   float: left;
   position: relative;
 }
-.pic5, .pic7 {
+.pic5bigsizes {
+  display: block;
+}
+.pic5smallsizes {
+  display: none;
+}
+.pic5bigsizes, .pic7bigsizes {
   width: calc(50% - 10px);
   float: left;
   position: relative;
+}
+.pic7bigsizes {
+  display: block;
+}
+.pic7smallsizes {
+  display: none;
 }
 .pic6 {
   width: calc(40% - 10px);
@@ -122,12 +138,24 @@ img {
   padding: 0 0 0 100px;
   background-color: white;
 }
-.number3, .number5 {
+.number3bigsizes, .number5bigsizes {
   position: absolute;
   top: 75px;
   left: -50px;
   padding: 0 100px 0 0;
   background-color: white;
+}
+.number5bigsizes {
+  display: block;
+}
+.number5smallsizes {
+  display: none;
+}
+.number3bigsizes {
+  display: block;
+}
+.number3smallsizes {
+  display: none;
 }
 /* greenshapes */
 .greenShape {
@@ -246,9 +274,13 @@ p {
   .introText {
     width: 100%;
   }
-  .pic2 {
+  .pic2smallsizes {
     width: 100%;
     margin-left: 5%;
+    display: block;
+  }
+  .pic2bigsizes {
+    display: none;
   }
   .section2 {
     margin-left: 0%;
@@ -292,13 +324,21 @@ p {
     width: 100%;
     margin-left: 6%;
   }
-  .pic5 {
+  .pic5smallsizes {
     width: 100%;
+    display: block;
   }
-  .number3 {
+  .pic5bigsizes {
+    display: none;
+  }
+  .number3smallsizes {
     top: 380px;
     left: 360px;
     padding: 75px 10px 0 10px;
+    display: block;
+  }
+  .number3bigsizes {
+    display: none;
   }
   .pic6 {
     width: 100%;
@@ -322,14 +362,22 @@ p {
     width: 100%;
     margin-left: 0%;
   }
-  .pic7 {
+  .pic7smallsizes {
     width: 70%;
     left: 30%;
+    display: block;
   }
-  .number5 {
+  .pic7bigsizes {
+    display: none;
+  }
+  .number5smallsizes {
     top: 275px;
     left: 30px;
     padding: 75px 10px 0 10px;
+    display: block;
+  }
+  .number5bigsizes {
+    display: none;
   }
   .section7 {
     width: 100%;
@@ -354,7 +402,7 @@ p {
   .titleAuthor {
     width: 100%;
     padding: 10px;
-    top: 390px;
+    top: 340px;
     left: 0%;
     right: auto;
   }
@@ -376,7 +424,7 @@ p {
     width: 90%;
     margin: 150px 0 50px 30px;
   }
-  .pic2 {
+  .pic2smallsizes {
     width: 100%;
     margin-left: 0;
     border-style: solid;
@@ -413,12 +461,12 @@ p {
     margin: 0;
     padding: 0;
   }
-  .pic5 {
+  .pic5smallsizes {
     width: 100%;
     border-style: solid;
     border-color: #D1C971;
   }
-  .number3 {
+  .number3smallsizes {
     top: 425px;
     left: 420px;
   }
@@ -430,13 +478,13 @@ p {
     border-style: solid;
     border-color: #D1C971;
   }
-  .pic7 {
+  .pic7smallsizes {
     width: 100%;
     left: 0%;
     border-style: solid;
     border-color: #D1C971;
   }
-  .number5 {
+  .number5smallsizes {
     top: 255px;
     left: 30px;
   }
