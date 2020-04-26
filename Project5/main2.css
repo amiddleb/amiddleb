@@ -13,23 +13,32 @@ body {
   border-width: thick;
   border-color: navy;
 }
-.littlespotlight {
+.spotlight, .spotlight2 {
   position: absolute;
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
-  border-bottom: 425px solid yellow;
+  border-bottom: 425px solid #FAF79D;
   width: 130px;
   top: 10%;
-  left: 13%;
 }
-.bigspotlight {
+.spotlight {
+  left: 12.75%;
+}
+.spotlight2 {
+  left: 40.25%;
+}
+.lamp, .lamp2 {
+  background-color: black;
+  width: 160px;
+  height: 50px;
   position: absolute;
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
-  border-bottom: 425px solid yellow;
-  width: 155px;
-  top: 10%;
-  left: 39.5%;
+  border-radius: 10px;
+}
+.lamp {
+  left: 13.5%;
+}
+.lamp2 {
+  left: 41%;
 }
 .hair {
   position: absolute;
@@ -425,7 +434,7 @@ p {
   left: 21.5%;
 }
 .mstand {
-  background-color: #6D6F7C;
+  background-color: #3469A9;
   width: 7px;
   height: 100px;
   position: absolute;
@@ -442,7 +451,7 @@ p {
   left: 27.75%;
 }
 .mbase {
-  background-color: #6D6F7C;
+  background-color: #3469A9;
   top: 83%;
   left: 28%;
   width: 40px;
