@@ -254,6 +254,7 @@ p {
     font-size: 40px;
   }
   .titleAuthor {
+    box-sizing: border-box;
     padding: 10px;
     top: 140px;
     right: 0px;
@@ -393,13 +394,16 @@ p {
 }
 @media only screen and (max-width: 504px) {
   .greenShape2 {
-    height: 0px;
-    left: 0%;
+    display: none;
+  }
+  .greenShape {
+    display: none;
   }
   .byline {
     right: 50px;
   }
   .titleAuthor {
+    box-sizing: border-box;
     width: 100%;
     padding: 10px;
     top: 340px;
