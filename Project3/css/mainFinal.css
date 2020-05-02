@@ -350,6 +350,7 @@ p {
     left: 360px;
     padding: 50px 10px 0 10px;
     display: block;
+    background-color: white;
   }
   .number3bigsizes {
     display: none;
