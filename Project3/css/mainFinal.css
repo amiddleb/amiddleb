@@ -231,6 +231,9 @@ p {
     bottom: 15px;
     right: 110px;
   }
+  .header {
+    margin-bottom: 0px;
+  }
   .titleAuthor {
     top: 100px;
     padding: 20px;
@@ -253,6 +256,10 @@ p {
   .greenShape2 {
     height: 1200px;
     left: 110%;
+    top: -36%;
+  }
+  .header {
+    margin-bottom: 90px;
   }
   .number1 {
     top: 200px;
@@ -337,10 +344,12 @@ p {
   .text3 {
     width: 100%;
     margin-left: 6%;
+    margin-top: 19px;
   }
   .pic5smallsizes {
     width: 100%;
     display: block;
+    position: relative;
   }
   .pic5bigsizes {
     display: none;
@@ -351,6 +360,7 @@ p {
     padding: 50px 10px 0 10px;
     display: block;
     background-color: white;
+    position: absolute;
   }
   .number3bigsizes {
     display: none;
@@ -371,7 +381,7 @@ p {
   .text5 {
     margin-top: 30px;
     width: 60%;
-    margin-left: 180px;
+    margin-left: 230px;
   }
   .section6 {
     width: 100%;
@@ -381,6 +391,7 @@ p {
     width: 70%;
     left: 30%;
     display: block;
+    position: relative;
   }
   .pic7bigsizes {
     display: none;
@@ -390,6 +401,8 @@ p {
     left: 30px;
     padding: 75px 10px 0 10px;
     display: block;
+    position: absolute;
+    background-color: white;
   }
   .number5bigsizes {
     display: none;
@@ -467,7 +480,7 @@ p {
     margin-top: 10%;
   }
   .number1 {
-    top: 425px;
+    top: 210px;
     left: 80%;
   }
   h5 {
@@ -488,12 +501,14 @@ p {
   }
   .pic5smallsizes {
     width: 100%;
+    position: relative;
     /* border-style: solid;
     border-color: #D1C971; */
   }
   .number3smallsizes {
-    top: 425px;
+    top: 455px;
     left: 420px;
+    position: absolute;
   }
   .number4 {
     top: 205px;
@@ -506,11 +521,14 @@ p {
   .pic7smallsizes {
     width: 100%;
     left: 0%;
+    position: relative;
     /* border-style: solid;
     border-color: #D1C971; */
   }
   .number5smallsizes {
-    top: 255px;
+    position: absolute;
+    background-color: white;
+    top: 260px;
     left: 30px;
   }
   .pic8 {
