@@ -36,13 +36,40 @@ body {
 }
 .spotlight {
   left: 12.75%;
+  animation-name: spotlight;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes spotlight {
+0% {border-bottom: 425px solid #FAF79D;}
+30% {border-bottom: 425px solid #FAD59D;}
+60% {border-bottom: 425px solid #C9FAB8;}
+100% {border-bottom: 425px solid #FAF79D;}
 }
 .spotlight2 {
   left: 40.25%;
+  animation-name: spotlight2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes spotlight2 {
+0% {border-bottom: 425px solid #FAF79D;}
+30% {border-bottom: 425px solid #FAD59D;}
+60% {border-bottom: 425px solid #C9FAB8;}
+100% {border-bottom: 425px solid #FAF79D;}
 }
 .spotlight3 {
   left: -3.75%;
   top: 11%;
+  animation-name: spotlight3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes spotlight3 {
+0% {border-bottom: 425px solid #FAF79D;}
+30% {border-bottom: 425px solid #FAD59D;}
+60% {border-bottom: 425px solid #C9FAB8;}
+100% {border-bottom: 425px solid #FAF79D;}
 }
 .lamp, .lamp2, .lamp3 {
   background-color: black;
@@ -95,7 +122,7 @@ body {
 }
 .eye {
   position: absolute;
-  background-color: #472903;
+  background-color: #224289;
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -112,7 +139,7 @@ body {
 }
 .eye2 {
   position: absolute;
-  background-color: #472903;
+  background-color: #224289;
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -638,7 +665,26 @@ p {
 }
 .tutu2 {
   top: 57%;
+  background-color: #A50D8A;
 }
 .tutu3 {
   top: 64%;
+}
+.pshoe, .pshoe2 {
+  background-color: #A33356;
+  position: absolute;
+}
+.pshoe {
+  width: 23%;
+  height: 22%;
+  border-radius: 20%;
+  top: 104%;
+  left: 24%;
+}
+.pshoe2 {
+  width: 28%;
+  height: 17.5%;
+  border-radius: 20%;
+  top: 82.5%;
+  left: 82%;
 }
