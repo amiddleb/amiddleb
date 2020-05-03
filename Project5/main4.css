@@ -61,7 +61,7 @@ body {
   width: 67px;
   height: 45px;
   border-radius: 50%;
-  top: 65%;
+  top: 73%;
   left: 50%;
 }
 .sear, .sear2 {
@@ -70,13 +70,13 @@ body {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  left: 47.5%;
+  left: -8%;
 }
 .sear {
-  top: 66%;
+  top: 5%;
 }
 .sear2 {
-  top: 69%;
+  top: 60%;
 }
 .seye, .seye2 {
   position: absolute;
@@ -84,13 +84,13 @@ body {
   border-radius: 50%;
   width: 3px;
   height: 6px;
-  left: 56.75%;
+  left: 28.75%;
 }
 .seye {
-  top: 66.5%;
+  top: 22.5%;
 }
 .seye2 {
-  top: 69.75%;
+  top: 58.75%;
 }
 .snose {
   background-color: black;
@@ -98,8 +98,8 @@ body {
   width: 10px;
   height: 12px;
   border-radius: 50%;
-  left: 65%;
-  top: 67.5%;
+  left: 60%;
+  top: 28%;
 }
 .smouth {
   background-color: #C26B88;
@@ -107,8 +107,8 @@ body {
   border-radius: 50%;
   width: 6px;
   height: 7px;
-  left: 69.25%;
-  top: 68%;
+  left: 81%;
+  top: 33.5%;
   animation-name: smouth;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -125,15 +125,13 @@ body {
   position: absolute;
   width: 25px;
   height: 37px;
-  top: 65.5%;
-  left: 43.5%;
+  top: 5.5%;
+  left: -24%;
   background-color: #D89810;
   border-radius: 5px;
 }
 .sbrim {
   position: absolute;
-  top: 64.65%;
-  left: 48.75%;
   background-color: #D89810;
   width: 15px;
   height: 45px;
