@@ -247,6 +247,7 @@ p {
   height: 100px;
   top: 68%;
   left: 44%;
+  border-radius: 15%;
 }
 .leg2 {
   position: absolute;
@@ -255,10 +256,11 @@ p {
   height: 100px;
   top: 68%;
   left: 49.5%;
+  border-radius: 15%;
 }
 .shoe {
   position: absolute;
-  background-color: #33234A;
+  background-color: #3A61B6;
   width: 40px;
   height: 29px;
   top: 82%;
@@ -267,7 +269,7 @@ p {
 }
 .shoe2 {
     position: absolute;
-    background-color: #33234A;
+    background-color: #3A61B6;
     width: 40px;
     height: 29px;
     top: 82%;
@@ -497,7 +499,7 @@ p {
 .pigspace {
   position: absolute;
   /* background-color: red; */
-  right: 13.5%;
+  right: 10%;
   width: 20%;
   height: 530px;
 }
