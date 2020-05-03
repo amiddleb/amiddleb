@@ -558,20 +558,34 @@ p {
   left: -8%;
 }
 .body {
-
+  background-color: #E790AC;
+  border-radius: 50%;
+  width: 30%;
+  height: 20%;
+  position: absolute;
+  top: 67%;
+  left: 12%;
+}
+.horizarm, .vertarm, .vertleg, .horizleg {
+  background-color: #DE7A9A;
+  /* border-radius: 50%; */
+  position: absolute;
 }
 .horizarm {
-
+  width: 35%;
+  height: 17%;
+  top: 33%;
+  left: 9%;
 }
 .vertarm {
-
-}
-.tutu {
 
 }
 .vertleg {
 
 }
 .horizleg {
+
+}
+.tutu {
 
 }
