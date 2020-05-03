@@ -46,19 +46,16 @@ body {
 }
 .lamp, .lamp2, .lamp3 {
   background-color: black;
+  border-radius: 20%;
   width: 160px;
   height: 50px;
   position: absolute;
-  border-radius: 10px;
 }
 .lamp {
   left: 13.5%;
 }
 .lamp2 {
   left: 41%;
-}
-.lamp3 {
-
 }
 .hair {
   position: absolute;
@@ -504,20 +501,22 @@ p {
   width: 20%;
   height: 530px;
 }
-.spotlight3 {
-
-}
-.lamp3 {
-
-}
 .head {
   background-color: #E790AC;
   border-radius: 50%;
   width: 32%;
   height: 13%;
   position: absolute;
-  top: 55%;
+  top: 58%;
   left: 10%;
+  animation-name: head;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes head {
+0% {top: 58%;}
+50% {top: 53%;}
+100% {top: 58%;}
 }
 .ear, .ear2 {
   background-color: #DE7A9A;
@@ -585,8 +584,16 @@ p {
   width: 30%;
   height: 20%;
   position: absolute;
-  top: 67%;
+  top: 70%;
   left: 12%;
+  animation-name: body;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes body {
+0% {top: 70%;}
+50% {top: 65%;}
+100% {top: 70%;}
 }
 .horizarm, .vertarm, .vertleg, .horizleg {
   background-color: #DE7A9A;
