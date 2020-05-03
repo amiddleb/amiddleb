@@ -26,7 +26,7 @@ body {
   background-color: #050D34;
   bottom: 0%;
 }
-.spotlight, .spotlight2 {
+.spotlight, .spotlight2, .spotlight3 {
   position: absolute;
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
@@ -40,7 +40,11 @@ body {
 .spotlight2 {
   left: 40.25%;
 }
-.lamp, .lamp2 {
+.spotlight3 {
+  left: -3.75%;
+  top: 11%;
+}
+.lamp, .lamp2, .lamp3 {
   background-color: black;
   width: 160px;
   height: 50px;
@@ -52,6 +56,9 @@ body {
 }
 .lamp2 {
   left: 41%;
+}
+.lamp3 {
+
 }
 .hair {
   position: absolute;
@@ -497,6 +504,12 @@ p {
   width: 20%;
   height: 530px;
 }
+.spotlight3 {
+
+}
+.lamp3 {
+
+}
 .head {
   background-color: #E790AC;
   border-radius: 50%;
@@ -557,6 +570,15 @@ p {
 .nostril2 {
   left: -8%;
 }
+.cheek {
+  background-color: #F6CDDA;
+  position: absolute;
+  border-radius: 50%;
+  width: 18%;
+  height: 20%;
+  top: 50%;
+  left: 50%;
+}
 .body {
   background-color: #E790AC;
   border-radius: 50%;
@@ -568,7 +590,7 @@ p {
 }
 .horizarm, .vertarm, .vertleg, .horizleg {
   background-color: #DE7A9A;
-  /* border-radius: 50%; */
+  border-radius: 20%;
   position: absolute;
 }
 .horizarm {
@@ -595,7 +617,7 @@ p {
   left: 63%;
 }
 .tutu, .tutu2, .tutu3 {
-  background-color: #AEDE7A;
+  background-color: #EA1AC4;
   border-radius: 50%;
   width: 125%;
   height: 10%;
