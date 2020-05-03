@@ -499,7 +499,7 @@ p {
 }
 .pigspace {
   position: absolute;
-  background-color: red;
+  /* background-color: red; */
   right: 13.5%;
   width: 20%;
   height: 530px;
