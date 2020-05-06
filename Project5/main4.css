@@ -173,7 +173,7 @@ body {
   position: absolute;
   width: 140px;
   height: 80px;
-  top: 80%;
+  top: 81%;
   left: 20%;
   background-color: blue;
 }
@@ -185,20 +185,24 @@ body {
   border-radius: 50%;
 }
 .circle {
-  top: 71%;
-  left: 61%;
+  top: 0%;
+  right: 0%;
+  background-color: black;
 }
 .circle2 {
-  top: 71%;
-  left: 52%;
+  top: 0%;
+  right: 15%;
+  background-color: black;
 }
 .circle3 {
-  top: 71%;
-  left: 43%;
+  top: 0%;
+  right: 30%;
+  background-color: black;
 }
 .circle4 {
-  top: 71%;
-  left: 34%;
+  top: 0%;
+  right: 45%;
+  background-color: black;
 }
 .circle5 {
   top: 75%;
