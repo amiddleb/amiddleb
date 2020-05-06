@@ -273,7 +273,6 @@ body {
   width: 350px;
   height: 530px;
   left: 34%;
-  background-color: red;
 }
 .lamp2 {
   left: 28%;
@@ -515,7 +514,7 @@ p {
   background-color: #B97E1C;
   width: 222px;
   height: 25px;
-  bottom: -10%;
+  bottom: -17%;
   left: 17.5%;
   border-radius: 50%;
   border-style: dotted;
@@ -526,7 +525,7 @@ p {
   background-color: black;
   width: 30px;
   height: 130px;
-  bottom: -10%;
+  bottom: -14%;
   left: 7%;
 }
 .pleg2 {
@@ -534,7 +533,7 @@ p {
   background-color: black;
   width: 30px;
   height: 130px;
-  bottom: -10%;
+  bottom: -14%;
   right: 7%;
 }
 .chairleg {
@@ -556,7 +555,6 @@ p {
 /* PIG */
 .pigspace {
   position: absolute;
-  background-color: purple;
   right: 10%;
   width: 20%;
   height: 530px;
