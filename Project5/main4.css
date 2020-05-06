@@ -20,7 +20,7 @@ body {
   position: absolute;
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
-  border-bottom: 425px solid #FAF79D;
+  border-bottom: 435px solid #FAF79D;
   width: 130px;
   top: 11%;
 }
@@ -49,10 +49,10 @@ body {
   animation-iteration-count: infinite;
 }
 @keyframes spotlight {
-0% {border-bottom: 425px solid #FAF79D;}
-30% {border-bottom: 425px solid #FAD59D;}
-60% {border-bottom: 425px solid #C9FAB8;}
-100% {border-bottom: 425px solid #FAF79D;}
+0% {border-bottom: 435px solid #FAF79D;}
+30% {border-bottom: 435px solid #FAD59D;}
+60% {border-bottom: 435px solid #C9FAB8;}
+100% {border-bottom: 435px solid #FAF79D;}
 }
 .sheephead {
   position: absolute;
@@ -284,10 +284,10 @@ body {
   animation-iteration-count: infinite;
 }
 @keyframes spotlight2 {
-0% {border-bottom: 425px solid #FAF79D;}
-30% {border-bottom: 425px solid #FAD59D;}
-60% {border-bottom: 425px solid #C9FAB8;}
-100% {border-bottom: 425px solid #FAF79D;}
+0% {border-bottom: 435px solid #FAF79D;}
+30% {border-bottom: 435px solid #FAD59D;}
+60% {border-bottom: 435px solid #C9FAB8;}
+100% {border-bottom: 435px solid #FAF79D;}
 }
 .girlhead {
   position: absolute;
@@ -566,10 +566,10 @@ p {
   animation-iteration-count: infinite;
 }
 @keyframes spotlight3 {
-0% {border-bottom: 425px solid #FAF79D;}
-30% {border-bottom: 425px solid #FAD59D;}
-60% {border-bottom: 425px solid #C9FAB8;}
-100% {border-bottom: 425px solid #FAF79D;}
+0% {border-bottom: 435px solid #FAF79D;}
+30% {border-bottom: 435px solid #FAD59D;}
+60% {border-bottom: 435px solid #C9FAB8;}
+100% {border-bottom: 435px solid #FAF79D;}
 }
 .head {
   background-color: #E790AC;
