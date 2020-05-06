@@ -302,14 +302,14 @@ body {
   width: 170px;
   height: 15px;
   border-radius: 50%;
-  top: 10%;
+  top: 16%;
   left: 8%;
 }
 .hattop {
   width: 110px;
   height: 40px;
   border-radius: 5px;
-  top: -13%;
+  top: -7%;
   left: 23.55%;
   background-color:#7DD3B1;
   position: absolute;
