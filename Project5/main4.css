@@ -9,12 +9,12 @@ body {
   margin-left: 5%;
   background-color: #15205A;
 }
-.curtain {
+/* .curtain {
   background-color: #811212;
   width: 100%;
   position: absolute;
   height: 600px;
-}
+} */
 .floor {
   position: absolute;
   width: 100%;
@@ -734,4 +734,34 @@ p {
   border-radius: 20%;
   top: 82.5%;
   left: 82%;
+}
+@media only screen and (max-width: 1024px) {
+  .sheepspace {
+    left: 0%;
+  }
+  .pigspace {
+    right: 0%;
+    width: 27%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sheepspace {
+    display: none;
+  }
+  .centerstage {
+    left: 7%;
+  }
+  .pigspace {
+    right: 3%;
+    width: 37%;
+  }
+}
+@media only screen and (max-width: 504px) {
+  .centerstage {
+    display: none;
+  }
+  .pigspace {
+    right: 10%;
+    width: 56%;
+  }
 }
