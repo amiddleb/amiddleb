@@ -577,16 +577,16 @@ p {
   width: 32%;
   height: 13%;
   position: absolute;
-  top: 58%;
+  top: 59%;
   left: 10%;
   animation-name: head;
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
 }
 @keyframes head {
-0% {top: 58%;}
-50% {top: 53%;}
-100% {top: 58%;}
+0% {top: 59%;}
+50% {top: 54%;}
+100% {top: 59%;}
 }
 .ear, .ear2 {
   background-color: #DE7A9A;
@@ -654,16 +654,16 @@ p {
   width: 30%;
   height: 20%;
   position: absolute;
-  top: 70%;
+  top: 71%;
   left: 12%;
   animation-name: body;
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
 }
 @keyframes body {
-0% {top: 70%;}
-50% {top: 65%;}
-100% {top: 70%;}
+0% {top: 71%;}
+50% {top: 66%;}
+100% {top: 71%;}
 }
 .horizarm, .vertarm, .vertleg, .horizleg {
   background-color: #DE7A9A;
