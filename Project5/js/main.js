@@ -1,5 +1,10 @@
-$(document).ready(function() {
-  $(".curtain").click(function() {
-    $(".curtain").toggle();
+<script>
+$(document).ready(function(){
+  $(".curtaintop").click(function() {
+    $(".curtain").css("display", "none");
   });
-}
+  $(".curtaintop").click(function(){
+    $(".curtain").css("display", "block");
+  });
+});
+</script>

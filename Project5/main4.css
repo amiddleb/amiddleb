@@ -9,12 +9,19 @@ body {
   margin-left: 5%;
   background-color: #15205A;
 }
-/* .curtain {
+.curtaintop {
+  background-color: #560404;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+}
+.curtain {
   background-color: #811212;
   width: 100%;
   position: absolute;
-  height: 600px;
-} */
+  height: 550px;
+  bottom: 0%;
+}
 .floor {
   position: absolute;
   width: 100%;
