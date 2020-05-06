@@ -34,7 +34,7 @@ body {
 /* SHEEP */
 .sheepspace {
   position: absolute;
-  background-color: yellow;
+  /* background-color: yellow; */
   height: 530px;
   width: 300px;
   left: 10%;
