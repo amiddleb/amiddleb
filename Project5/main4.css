@@ -402,9 +402,9 @@ body {
 .girlbody {
   position: absolute;
   background-color: green;
-  width: 200px;
+  width: 150px;
   height: 120px;
-  top: 75%;
+  top: 72%;
   left: 28%;
 }
 .skirt {
@@ -412,8 +412,8 @@ body {
   background-color: #621941;
   width: 150px;
   height: 45px;
-  top: 65%;
-  left: 42%;
+  top: 30%;
+  left: 0%;
   border-radius: 5px;
 }
 .skirttop {
@@ -521,8 +521,8 @@ p {
   background-color: #B97E1C;
   width: 222px;
   height: 25px;
-  bottom: 0%;
-  left: 18.5%;
+  bottom: -10%;
+  left: 17.5%;
   border-radius: 50%;
   border-style: dotted;
   border-color: #95630F;
@@ -533,7 +533,7 @@ p {
   width: 30px;
   height: 130px;
   bottom: -10%;
-  left: 10%;
+  left: 7%;
 }
 .pleg2 {
   position: absolute;
@@ -541,7 +541,7 @@ p {
   width: 30px;
   height: 130px;
   bottom: -10%;
-  right: 10%;
+  right: 7%;
 }
 .chairleg {
   position: absolute;
