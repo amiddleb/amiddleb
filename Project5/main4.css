@@ -629,6 +629,22 @@ p {
 50% {top: 54%;}
 100% {top: 59%;}
 }
+.crown, .crown2, .crown3 {
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 35px solid #F1D11C;
+  bottom: 93%;
+}
+.crown {
+  left: 25%;
+}
+.crown2 {
+  left: 40%;
+}
+.crown3 {
+  left: 55%;
+}
 .ear, .ear2 {
   background-color: #DE7A9A;
   border-radius: 50%;
@@ -690,7 +706,7 @@ p {
   left: 50%;
 }
 .body {
-  background-color: #E790AC;
+  background-color: #F0B0D6;
   border-radius: 50%;
   width: 30%;
   height: 20%;
@@ -735,7 +751,7 @@ p {
   left: 63%;
 }
 .tutu, .tutu2, .tutu3 {
-  background-color: #F0B0D6;
+  background-color: white;
   border-radius: 50%;
   width: 125%;
   height: 10%;
@@ -747,7 +763,7 @@ p {
 }
 .tutu2 {
   top: 57%;
-  background-color: #ED74BB;
+  background-color: #F0B0D6;
 }
 .tutu3 {
   top: 64%;
