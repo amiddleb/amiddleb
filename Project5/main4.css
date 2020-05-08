@@ -17,20 +17,30 @@ body {
   background-color: #811212;
   width: 100%;
   position: absolute;
-  height: 550px;
+  height: 600px;
   bottom: 0%;
   transition: bottom 1s ease; height 1s ease;
 }
 .curtainUp {
-  bottom: 550px;
+  bottom: 590px;
 }
-.curtaintop {
-  background-color: #560404;
+.curtainPull {
+  background-color: #BFA00A;
   position: absolute;
-  width: 100%;
-  height: 50px;
+  left: 50px;
+  width: 15px;
+  height: 550px;
 }
-.curtaintop:hover {
+.tassle {
+  background-color: #BFA00A;
+  position: absolute;
+  bottom: 44px;
+  left: 42.5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.tassle:hover {
   cursor: pointer;
 }
 .floor {
@@ -49,7 +59,7 @@ body {
   top: 11%;
   transition: opacity 6s ease;
 }
-.spotlight, .spotlight2, .spotlight3:hover {
+.lamp, .lamp2, .lamp3:hover {
   cursor: pointer;
 }
 .lightSwitch {
@@ -725,7 +735,7 @@ p {
   left: 63%;
 }
 .tutu, .tutu2, .tutu3 {
-  background-color: #EA1AC4;
+  background-color: #F0B0D6;
   border-radius: 50%;
   width: 125%;
   height: 10%;
@@ -737,7 +747,7 @@ p {
 }
 .tutu2 {
   top: 57%;
-  background-color: #A50D8A;
+  background-color: #ED74BB;
 }
 .tutu3 {
   top: 64%;
