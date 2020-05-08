@@ -1,9 +1,9 @@
 body {
   margin: 0;
 }
-.hidden {
+/* .hidden {
   display: none;
-}
+} */
 .container {
   width: 90%;
   height: 600px;
@@ -33,7 +33,7 @@ body {
   position: absolute;
   height: 550px;
   bottom: 0%;
-  transition: bottom 1s ease; height 1s ease;
+  /* transition: bottom 1s ease; height 1s ease; */
 }
 .floor {
   position: absolute;

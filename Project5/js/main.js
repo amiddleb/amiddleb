@@ -1,8 +1,9 @@
 $(document).ready(function(){
   $(".curtaintop").click(function() {
-    $(".curtain").css("display", "none");
+    $(".curtain").toggleClass("curtainUp");
   });
-  $(".curtaintop").click(function(){
-    $(".curtain").css("display", "block");
+  
+  $(".spotlight").click(function(){
+    $(".spotlight").toggleClass("lightSwitch");
   });
 });
