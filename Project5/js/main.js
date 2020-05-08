@@ -1,4 +1,3 @@
-<script>
 $(document).ready(function(){
   $(".curtaintop").click(function() {
     $(".curtain").css("display", "none");
@@ -7,4 +6,3 @@ $(document).ready(function(){
     $(".curtain").css("display", "block");
   });
 });
-</script>
