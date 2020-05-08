@@ -645,6 +645,23 @@ p {
 .crown3 {
   left: 55%;
 }
+.ruby, .ruby2, .ruby3 {
+  position: absolute;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  bottom: 140%;
+  background-color: #E433A6;
+}
+.ruby {
+  left: 34%
+}
+.ruby2 {
+  left: 49%;
+}
+.ruby3 {
+  left: 64%;
+}
 .ear, .ear2 {
   background-color: #DE7A9A;
   border-radius: 50%;
