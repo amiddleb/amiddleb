@@ -11,6 +11,18 @@ body {
   margin-top: 5%;
   margin-left: 5%;
   background-color: #15205A;
+  overflow: hidden;
+}
+.curtain {
+  background-color: #811212;
+  width: 100%;
+  position: absolute;
+  height: 550px;
+  bottom: 0%;
+  transition: bottom 1s ease; height 1s ease;
+}
+.curtainUp {
+  bottom: 550px;
 }
 .curtaintop {
   background-color: #560404;
@@ -20,20 +32,6 @@ body {
 }
 .curtaintop:hover {
   cursor: pointer;
-}
-.lightSwitch {
-  opacity: 0;
-}
-.curtainUp {
-  bottom: 550px;
-}
-.curtain {
-  background-color: #811212;
-  width: 100%;
-  position: absolute;
-  height: 550px;
-  bottom: 0%;
-  /* transition: bottom 1s ease; height 1s ease; */
 }
 .floor {
   position: absolute;
@@ -49,7 +47,13 @@ body {
   border-bottom: 435px solid #FAF79D;
   width: 130px;
   top: 11%;
-  transition: opacity 10s ease;
+  transition: opacity 6s ease;
+}
+.spotlight, .spotlight2, .spotlight3:hover {
+  cursor: pointer;
+}
+.lightSwitch {
+  opacity: 0;
 }
 .lamp, .lamp2, .lamp3 {
   background-color: black;
