@@ -105,6 +105,9 @@ body {
   top: 73%;
   left: 50%;
 }
+.sheephead:hover {
+  cursor: pointer;
+}
 .sear, .sear2 {
   position: absolute;
   background-color: #473724;
@@ -550,6 +553,9 @@ p {
   height: 75px;
   border-radius: 5px;
 }
+.pbody:hover {
+  cursor: pointer;
+}
 .rug {
   position: absolute;
   background-color: #B97E1C;
@@ -628,6 +634,9 @@ p {
 0% {top: 59%;}
 50% {top: 54%;}
 100% {top: 59%;}
+}
+.head:hover {
+  cursor: pointer;
 }
 .crown, .crown2, .crown3 {
   position: absolute;
