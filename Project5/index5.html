@@ -15,7 +15,7 @@
       <div class="floor"></div>
       <div class="sheepspace">
         <div class="spotlight"></div>
-        <div class="lamp"></div>
+        <div class="lamp" onclick="document.getElementById('click').play();"></div>
         <div class="sheepbody">
           <div class="sleg"></div>
           <div class="sleg2"></div>
@@ -36,8 +36,7 @@
           <div class="circle13"></div>
           <div class="tail"></div>
         </div>
-        <div class="sheephead">
-          <!-- <div class="shead"></div> -->
+        <div class="sheephead" onclick="document.getElementById('sheep').play();">
           <div class="seye"></div>
           <div class="seye2"></div>
           <div class="snose"></div>
@@ -55,8 +54,8 @@
       </div>
       <div class="pigspace">
         <div class="spotlight3"></div>
-        <div class="lamp3"></div>
-        <div class="head">
+        <div class="lamp3" onclick="document.getElementById('click').play();"></div>
+        <div class="head" onclick="document.getElementById('pig').play();">
           <div class="crown"></div>
           <div class="crown2"></div>
           <div class="crown3"></div>
@@ -86,7 +85,7 @@
       </div>
       <div class="centerstage">
         <div class="spotlight2"></div>
-        <div class="lamp2"></div>
+        <div class="lamp2" onclick="document.getElementById('click').play();"></div>
         <div class="girlhead">
           <div class="hair"></div>
           <div class="face"></div>
@@ -99,7 +98,7 @@
           <div class="eyebrow"></div>
           <div class="eyebrow2"></div>
         </div>
-        <div class="piano">
+        <div class="piano" onclick="document.getElementById('pianoRun').play();">
           <div class="music"></div>
           <div class="spine"></div>
           <div class="text">
@@ -125,7 +124,12 @@
       </div>
       <div class="curtain"></div>
       <div class="curtainPull"></div>
-        <div class="tassle"></div>
+        <div class="tassle" onclick="document.getElementById('applause').play();"></div>
     </div>
+    <audio id="applause" src="audio/applause.mp3" preload="auto"></audio>
+    <audio id="click" src="audio/click.wav" preload="auto"></audio>
+    <audio id="pianoRun" src="audio/pianoRun.wav" preload="auto"></audio>
+    <audio id="pig" src="audio/pig.wav" preload="auto"></audio>
+    <audio id="sheep" src="audio/sheep.wav" preload="auto"></audio>
   </body>
 </html>
